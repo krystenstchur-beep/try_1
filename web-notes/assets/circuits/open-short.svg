@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="430" viewBox="0 0 520 430" role="img" aria-labelledby="title desc">
+<title id="title">开路电压与短路电流的边界条件</title><desc id="desc">两个图中的网络内部独立源和受控源都保留。开路时端口电流为零，求 a 对 b 的电压 Uoc。短路时 a b 用导线连接，电压为零，求短路线中从 a 到 b 的电流 Isc。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#52785a" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#405a45;font-size:22px}.wire{stroke:#52785a;stroke-width:2.5;fill:none}.part{fill:#f1f5ec;stroke:#52785a;stroke-width:2.5}.heading{font-size:23px;font-weight:600}.math{font-family:Georgia,'Times New Roman',serif;font-size:25px}.caption{font-size:21px;fill:#708166}</style>
+<rect width="520" height="430" fill="#fbfcf8"/>
+<g transform="translate(0 10)">
+<text x="24" y="28" class="heading">开路 · 端口电流为零</text>
+<rect class="part" x="65" y="60" width="165" height="105" rx="8"/><text x="93" y="102">原网络</text><text x="82" y="140" class="caption">内部源保留</text>
+<path class="wire" d="M230 80H395M230 147H395"/><circle class="part" cx="395" cy="80" r="4"/><circle class="part" cx="395" cy="147" r="4"/>
+<text x="268" y="68" class="math">i = 0</text><text x="414" y="86" class="math">a +</text><text x="414" y="155" class="math">b −</text><text x="411" y="121" class="math">Uoc</text>
+<text x="24" y="198" class="caption">内部回路仍可能有电流。</text>
+</g>
+<path d="M24 222H496" stroke="#dce5d5"/>
+<g transform="translate(0 222)">
+<text x="24" y="28" class="heading">短路 · 端口电压为零</text>
+<rect class="part" x="65" y="60" width="165" height="105" rx="8"/><text x="93" y="102">原网络</text><text x="82" y="140" class="caption">内部源保留</text>
+<path class="wire" d="M230 80H395V147H230"/><path class="wire" d="M395 93V132" marker-end="url(#arrow)"/>
+<circle class="part" cx="395" cy="80" r="4"/><circle class="part" cx="395" cy="147" r="4"/>
+<text x="267" y="67" class="math">u = 0</text><text x="414" y="85" class="math">a</text><text x="414" y="155" class="math">b</text><text x="414" y="122" class="math">Isc</text>
+<text x="24" y="198" class="caption">短路线电流要用整个电路求解。</text>
+</g>
+</svg>

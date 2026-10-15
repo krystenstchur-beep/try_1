@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="700" viewBox="0 0 520 700" role="img" aria-labelledby="title desc">
+<title id="title">同一端口的两种等效电源</title><desc id="desc">所有模型均取 a 正 b 负，i 从 a 流出。戴维南为上正下负的电压源 Uoc 串联 R0。诺顿为箭头向上的电流源 Isc 与 R0 并联。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#52785a" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#405a45;font-size:22px}.wire{stroke:#52785a;stroke-width:2.5;fill:none}.part{fill:#f1f5ec;stroke:#52785a;stroke-width:2.5}.heading{font-size:23px;font-weight:600}.math{font-family:Georgia,'Times New Roman',serif;font-size:25px}.caption{font-size:21px;fill:#708166}</style>
+<rect width="520" height="700" fill="#fbfcf8"/>
+<g transform="translate(0 10)">
+<text x="24" y="28" class="heading">原单口网络 · 只看端口关系</text>
+<rect class="part" x="94" y="60" width="160" height="115" rx="8"/>
+<text x="119" y="109">线性网络</text><text x="125" y="142" class="caption">内部可复杂</text>
+<path class="wire" d="M254 80H440M254 157H440"/><path class="wire" d="M330 80H389" marker-end="url(#arrow)"/>
+<circle class="part" cx="440" cy="80" r="4"/><circle class="part" cx="440" cy="157" r="4"/>
+<text x="350" y="67" class="math">i</text><text x="455" y="88" class="math">a +</text><text x="455" y="165" class="math">b −</text><text x="455" y="128" class="math">u</text>
+<text x="24" y="211" class="caption">同一负载下，端口电压、电流相同。</text>
+</g>
+<path d="M24 240H496" stroke="#dce5d5"/>
+<g transform="translate(0 240)">
+<text x="24" y="28" class="heading">戴维南 · 电压源串联电阻</text>
+<path class="wire" d="M120 103V74H230M290 74H440M120 151V177H440"/><path class="wire" d="M331 74H391" marker-end="url(#arrow)"/>
+<rect class="part" x="230" y="65" width="60" height="18"/><text x="245" y="55" class="math">R₀</text>
+<circle class="part" cx="120" cy="127" r="24"/><text x="112" y="122">+</text><text x="113" y="142">−</text><text x="35" y="134" class="math">Uoc</text>
+<circle class="part" cx="440" cy="74" r="4"/><circle class="part" cx="440" cy="177" r="4"/>
+<text x="351" y="60" class="math">i</text><text x="455" y="82" class="math">a +</text><text x="455" y="185" class="math">b −</text><text x="455" y="137" class="math">u</text>
+<text x="24" y="216" class="caption">u = Uoc − R₀i</text>
+</g>
+<path d="M24 478H496" stroke="#dce5d5"/>
+<g transform="translate(0 478)">
+<text x="24" y="28" class="heading">诺顿 · 电流源并联电阻</text>
+<path class="wire" d="M120 103V74H440M120 151V177H440M300 74V104M300 148V177"/><path class="wire" d="M341 74H400" marker-end="url(#arrow)"/>
+<circle class="part" cx="120" cy="127" r="24"/><path class="wire" d="M120 143V112" marker-end="url(#arrow)"/><text x="47" y="136" class="math">Isc</text>
+<rect class="part" x="291" y="104" width="18" height="44"/><text x="320" y="135" class="math">R₀</text>
+<circle class="part" cx="440" cy="74" r="4"/><circle class="part" cx="440" cy="177" r="4"/>
+<text x="360" y="60" class="math">i</text><text x="455" y="82" class="math">a +</text><text x="455" y="185" class="math">b −</text><text x="455" y="137" class="math">u</text>
+<text x="24" y="214" class="caption">i = Isc − u / R₀（有限非零 R₀）</text>
+</g>
+</svg>
