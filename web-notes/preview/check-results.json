@@ -3,18 +3,19 @@
     {
       "filename": "circuits.html",
       "title": "第四章 电路基本定理 · 电路基础笔记",
-      "sections": 4,
+      "sections": 5,
       "headings": [
         "4.1叠加定理与齐次定理",
         "4.2替代定理",
         "4.3等效电源定理",
-        "4.4最大功率传输定理"
+        "4.4最大功率传输定理",
+        "4.5互易定理"
       ],
       "mathErrors": 0,
-      "formulas": 300,
-      "statements": 17,
+      "formulas": 442,
+      "statements": 25,
       "unboxedConclusions": 0,
-      "questions": 8,
+      "questions": 11,
       "bodyAsides": 0,
       "duplicates": [],
       "brokenAnchors": [],

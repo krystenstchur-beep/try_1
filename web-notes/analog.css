@@ -1,0 +1,23 @@
+/* Keep the established reading palette and shared interactions. */
+.analog-notes .path-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 20px}
+.analog-notes .path-node{padding:16px 18px}
+.analog-notes .path-node h3{font-size:22px;margin:11px 0 7px}
+.analog-notes .path-node:nth-child(3n):after{content:none}
+.analog-notes h1{font-size:clamp(31px,3.1vw,45px);line-height:1.5}
+.analog-notes h1 small{display:block;font-size:.57em;font-weight:400;letter-spacing:1px;color:#77856f;margin-top:5px}
+.analog-notes .hero-figure{width:230px}
+.analog-notes .article [id]{scroll-margin-top:96px}
+.analog-notes .article h4{font-size:16px;color:#4a6542}
+.analog-notes .article img{width:100%;max-width:700px}
+.analog-notes .article .note-section>div[id]:empty{height:0}
+.analog-notes .article table{min-width:550px;font-size:13px}
+.analog-notes .article table .katex{white-space:nowrap}
+.analog-notes .article .katex{overflow-wrap:normal}
+.analog-notes .math-block .katex-display>.katex{white-space:nowrap}
+.analog-notes .property-statement>p:not(:first-child){margin-top:14px}
+.analog-notes .material-note{margin-top:16px}
+.analog-notes .source-index{color:#7e8e74;font-size:11px;line-height:1.9}
+@media(max-width:1200px){.analog-notes .hero-figure{width:175px}.analog-notes h1{font-size:33px}.analog-notes .path-node{padding:15px 12px}.analog-notes .path-node h3{font-size:20px}}
+@media(max-width:760px){.analog-notes .path-grid{display:flex;gap:17px}.analog-notes .path-node{flex:0 0 182px;padding:18px}.analog-notes .path-node:nth-child(3n):after{content:'→'}.analog-notes .path-node:last-child:after{content:none}.analog-notes h1{font-size:33px}.analog-notes h1 small{font-size:19px}.analog-notes .hero-tags{gap:12px}.analog-notes .article h4{font-size:15px}.analog-notes .article table{font-size:12px}.analog-notes .article .note-section{padding-top:32px}.analog-notes .article h2{font-size:22px;align-items:flex-start}}
+@media(max-width:360px){.analog-notes h1{font-size:29px}.analog-notes .hero-tags{font-size:9px;gap:9px}}
+@media print{.analog-notes h1{font-size:27px}.analog-notes .article img{max-width:560px;break-inside:avoid}.analog-notes .article table{min-width:0;font-size:10pt}}

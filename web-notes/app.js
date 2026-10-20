@@ -50,6 +50,10 @@ function init() {
     aside.hidden=true;
     document.getElementById('context-margin').appendChild(aside);
   });
+  // Markdown source paths start at the repository root; HTML lives below it.
+  document.querySelectorAll('a[href^="web-notes/"]').forEach(link => {
+    link.setAttribute('href',link.getAttribute('href').slice('web-notes/'.length));
+  });
   document.querySelectorAll('#source-question-archive summary').forEach((summary,index) => {
     const number=document.createElement('span');
     number.textContent=String(index+1).padStart(2,'0');
@@ -68,6 +72,9 @@ function init() {
       paragraph.before(statement);
       statement.append(paragraph);
       if(formula?.classList.contains('math-block'))statement.append(formula);
+      while(statement.nextElementSibling?.tagName==='P' && statement.nextElementSibling.firstElementChild?.textContent==='条件与符号。'){
+        statement.append(statement.nextElementSibling);
+      }
     }
   });
   const sections = [...document.querySelectorAll('.note-section')];

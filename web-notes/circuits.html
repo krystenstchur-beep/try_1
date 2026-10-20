@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8f4">
-  <meta name="description" content="电路基础第四章 4.1—4.4：叠加与齐次、替代、等效电源、最大功率传输。保留手写理解，补齐数学推理。">
+  <meta name="description" content="电路基础第四章 4.1—4.5：叠加与齐次、替代、等效电源、最大功率传输、互易定理。保留手写理解，补齐数学推理与例题。">
   <title>第四章 电路基本定理 · 电路基础笔记</title>
   <link rel="stylesheet" href="assets/katex.min.css">
   <link rel="stylesheet" href="style.css">
@@ -28,18 +28,19 @@
   </header>
   <aside class="sidebar" id="sidebar" aria-label="章节导航">
     <div class="sidebar-label">我的知识地图 <span>CONTENTS</span></div>
-    <div class="chapter-title"><span>04</span><div>电路基本定理<small>SECTIONS 4.1 — 4.4</small></div></div>
+    <div class="chapter-title"><span>04</span><div>电路基本定理<small>SECTIONS 4.1 — 4.5</small></div></div>
     <nav id="toc" aria-label="本章目录"></nav>
     <div class="sidebar-note"><span class="note-dot"></span> 先理清结构，再连接理解。<p>从电源的贡献，<br>走向网络的端口关系。</p></div>
     <a href="../电路基础.md" class="source-link" download>↓ 下载原始 Markdown</a>
     <a href="index.html" class="source-link course-link">另一门课 · 复变函数 ↗</a>
+    <a href="analog.html" class="source-link course-link">模电 · 第三章 ↗</a>
     <div class="sidebar-bottom"><span>本章阅读进度</span><b id="progress-text">0%</b><div><i id="side-progress"></i></div></div>
   </aside>
   <main id="top">
     <div class="page-shell">
       <section class="hero" aria-labelledby="page-title">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="pill">电路基础</span><span>CHAPTER 04 · SECTIONS 01–04</span></div>
+          <div class="eyebrow"><span class="pill">电路基础</span><span>CHAPTER 04 · SECTIONS 01–05</span></div>
           <h1 id="page-title">电路基本定理<span class="title-dot">.</span></h1>
           <p class="hero-intro">看清每个电源的贡献，<br>用端口关系，把复杂电路看成一个整体。</p>
           <div class="hero-tags"><span>线性与叠加</span><span>网络与等效</span><span>个人理解</span></div>
@@ -65,17 +66,17 @@
         </div>
       </section>
       <div class="reading-tabs" role="navigation" aria-label="阅读入口">
-        <a class="active" href="#section-1">完整笔记 <span id="section-count">04</span></a>
+        <a class="active" href="#section-1">完整笔记 <span id="section-count">05</span></a>
         <a href="#knowledge-map">知识框架 <span>↗</span></a>
-        <a href="#questions">我的疑问 <span id="question-count">08</span></a>
+        <a href="#questions">我的疑问 <span id="question-count">11</span></a>
         <span class="reading-hint">理解 · 推导 · 查阅</span>
       </div>
       <section class="quick-reference knowledge-map" id="knowledge-map" aria-labelledby="quick-title">
         <div class="section-label"><h2 id="quick-title">沿着自己的结构，逐步理解。</h2><span>本章知识框架 · 点击进入</span></div>
-        <div class="path-grid" id="knowledge-path" aria-label="4.1 至 4.4 学习顺序"></div>
-        <div class="path-caption"><span>阅读顺序</span>分解响应 → 保留工作状态 → 保留端口关系 → 优化负载功率</div>
-        <p class="path-note">采用本次修订图片：4.2 为替代定理，4.3 为等效电源，4.4 为最大功率传输。最后两张理解补入 4.3。</p>
-        <p class="path-note">正文保留“我的理解”，新增内容标为“补充”，原稿校正用浅金色提示；个人疑问可从独立入口回看。</p>
+        <div class="path-grid" id="knowledge-path" aria-label="4.1 至 4.5 学习顺序"></div>
+        <div class="path-caption"><span>阅读顺序</span>分解响应 → 保留工作状态 → 保留端口关系 → 优化负载功率 → 交换激励与响应</div>
+        <p class="path-note">新增 4.5 互易定理：三种形式、适用条件，以及由负载功率求激励电流的课件例题。</p>
+        <p class="path-note">“我的理解”尽量保留手写原话与语气，以引文呈现；补充另列，原稿校正用浅金色提示。个人疑问可从独立入口回看。</p>
         <details class="material-note"><summary>材料顺序与整理约定</summary><div id="note-preface"></div></details>
       </section>
       <div class="body-layout">

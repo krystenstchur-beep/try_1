@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="780" viewBox="0 0 700 780" role="img" aria-labelledby="t d">
+<title id="t">固定偏置共射电路和直交流通路</title><desc id="d">原电路用 UBB 和 RB 偏置基极，UCC 经 RC 接集电极，发射极接地。C1 与 C2 分别耦合输入与负载。直流时电容开路，信号源和负载被隔离。中频交流时直流源增量为零，RB、RC 与 RL 各自接交流地，RC 与 RL 在输出端并联。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4 1 7Z" fill="#426c51"/></marker></defs>
+<rect width="700" height="780" fill="#fbfcf8" rx="12"/>
+<style>text{font-family:Georgia,'Microsoft YaHei',serif;font-size:19px;fill:#35533e}.small{font-family:'Microsoft YaHei',sans-serif;font-size:15px;fill:#7b8c72}.w{fill:none;stroke:#426c51;stroke-width:2}</style>
+<text x="28" y="35" class="small">原电路 · 双电源固定偏置 CE</text>
+<g class="w"><path d="M440 78V53M440 138V177H363V201M296 201V255M296 225H230V267M296 209L363 177M296 244L363 286V398M230 319V342M230 378V398H590V313M440 177H512M526 177H590V263M85 225H126M140 225H230M85 225V268M85 318V343M85 379V398H230"/>
+<rect x="428" y="78" width="24" height="60"/><rect x="218" y="267" width="24" height="52"/><rect x="578" y="263" width="24" height="50"/><rect x="73" y="268" width="24" height="50"/>
+<path d="M126 207V243M140 207V243M512 159V195M526 159V195M321 260L345 276" marker-end="url(#a)"/>
+<circle cx="230" cy="360" r="18"/><circle cx="85" cy="361" r="18"/><path d="M75 362Q80 348 85 362T95 362M230 347V357M225 352H235M225 368H235M363 398V413M345 413H381M352 419H374M358 425H368"/></g>
+<text x="455" y="61">+UCC</text><text x="459" y="111">RC</text><text x="247" y="300">RB</text><text x="251" y="366">UBB</text><text x="605" y="297">RL</text><text x="108" y="300">Rs</text><text x="39" y="367">us</text><text x="124" y="190">C1</text><text x="508" y="145">C2</text><text x="607" y="215">uo</text>
+<path d="M28 455H672" stroke="#dce5d5"/>
+<text x="28" y="488" class="small">直流：C1、C2 开路</text><text x="366" y="488" class="small">交流：理想直流源置零，电容近似短路</text>
+<g class="w"><path d="M237 526V544M86 625H142M142 604V651M142 615L190 590H237M142 644L190 680V725M86 625V640M86 670V674M86 710V725H237"/>
+<rect x="75" y="640" width="22" height="30"/><rect x="226" y="544" width="22" height="46"/><circle cx="86" cy="692" r="18"/><path d="M86 679V689M81 684H91M81 700H91M160 658L177 670" marker-end="url(#a)"/>
+<path d="M390 593H432V618M432 668V725H662M432 593H492M492 568V618M492 578L539 549H585V618M492 607L539 643V725M585 549H653V618M585 668V725M653 668V725M390 593V672M390 708V725H432M515 725V737M501 737H529M508 743H522"/>
+<rect x="421" y="618" width="22" height="50"/><rect x="574" y="618" width="22" height="50"/><rect x="642" y="618" width="22" height="50"/><circle cx="390" cy="690" r="18"/><path d="M380 691Q385 677 390 691T400 691M509 620L526 633" marker-end="url(#a)"/>
+</g>
+<text x="42" y="658">RB</text><text x="254" y="575">RC</text><text x="25" y="697">UBB</text><text x="189" y="520">+UCC</text><text x="448" y="651">RB</text><text x="560" y="610">RC</text><text x="630" y="610">RL</text><text x="361" y="664">ui</text><text x="628" y="533">uo</text>
+<text x="28" y="762" class="small">图形位置可以改变，电气连接与端口定义必须保持。</text>
+</svg>

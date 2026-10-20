@@ -1,0 +1,227 @@
+{
+  "example": {
+    "Vb": 2.600082884376295,
+    "Ie": 0.00126672192291753,
+    "Ic": 0.0012418842381544412,
+    "Uce": 6.001699129714049,
+    "rbe": 1246.7964404894326,
+    "Ri": 5242.802320759075,
+    "Au": -6.0070594763723175,
+    "Aus": -5.581238465115327
+  },
+  "report": [
+    {
+      "file": "analog.html",
+      "sections": [
+        "3.1双极型晶体管",
+        "3.2放大电路的基本概念",
+        "3.3共发射极放大电路的组成与工作原理",
+        "3.4共发射极放大电路的直流分析方法",
+        "3.5共发射极放大电路的交流分析方法",
+        "3.6放大电路分析的一般步骤",
+        "3.7共集电极放大电路",
+        "3.8共基极放大电路",
+        "3.9三种组态放大电路比较"
+      ],
+      "firstSectionStructure": [
+        "一、定义与结构",
+        "二、工作特点与原理",
+        "三、伏安特性曲线",
+        "四、晶体管等效模型（3.1.8）"
+      ],
+      "formulas": 624,
+      "mathErrors": 0,
+      "statements": 56,
+      "unboxed": 0,
+      "unboxedConditions": 0,
+      "questions": 15,
+      "inArticleQuestions": 0,
+      "duplicateIds": [],
+      "brokenAnchors": [],
+      "localLinks": [
+        "../模电.md",
+        "circuits.html",
+        "index.html",
+        "assets/analog/hand1-1.jpg",
+        "assets/analog/hand1-2.jpg",
+        "assets/analog/hand1-3.jpg",
+        "assets/analog/hand1-4.jpg",
+        "assets/analog/hand1-5.jpg",
+        "assets/analog/hand1-6.jpg",
+        "assets/analog/hand1-7.jpg",
+        "assets/analog/hand1-8.jpg",
+        "assets/analog/hand1-9.jpg",
+        "assets/analog/hand1-10.jpg",
+        "assets/analog/hand1-11.jpg",
+        "assets/analog/hand1-12.jpg",
+        "assets/analog/hand1-13.jpg",
+        "assets/analog/hand2-1.jpg",
+        "assets/analog/hand2-2.jpg",
+        "assets/analog/hand2-3.jpg",
+        "assets/analog/hand2-4.jpg",
+        "assets/analog/hand2-5.jpg",
+        "assets/analog/hand1-12.jpg",
+        "assets/analog/hand1-12.jpg"
+      ],
+      "externalResources": [],
+      "layouts": [
+        {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": []
+        },
+        {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflow": []
+        },
+        {
+          "width": 768,
+          "documentWidth": 768,
+          "overflow": []
+        },
+        {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": []
+        },
+        {
+          "width": 360,
+          "documentWidth": 360,
+          "overflow": []
+        },
+        {
+          "width": 320,
+          "documentWidth": 320,
+          "overflow": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "circuits.html",
+      "sections": [
+        "4.1叠加定理与齐次定理",
+        "4.2替代定理",
+        "4.3等效电源定理",
+        "4.4最大功率传输定理",
+        "4.5互易定理"
+      ],
+      "firstSectionStructure": [
+        "1. 叠加定理：电压、电流的响应可以分开求再相加",
+        "2. 齐次定理：全部独立激励同倍变化，响应同倍变化"
+      ],
+      "formulas": 444,
+      "mathErrors": 0,
+      "statements": 25,
+      "unboxed": 0,
+      "unboxedConditions": 0,
+      "questions": 11,
+      "inArticleQuestions": 0,
+      "duplicateIds": [],
+      "brokenAnchors": [],
+      "localLinks": [
+        "../电路基础.md",
+        "index.html",
+        "analog.html"
+      ],
+      "externalResources": [],
+      "layouts": [
+        {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": []
+        },
+        {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflow": []
+        },
+        {
+          "width": 768,
+          "documentWidth": 768,
+          "overflow": []
+        },
+        {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": []
+        },
+        {
+          "width": 360,
+          "documentWidth": 360,
+          "overflow": []
+        },
+        {
+          "width": 320,
+          "documentWidth": 320,
+          "overflow": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "sections": [
+        "01孤立奇点",
+        "02可去奇点",
+        "03极点",
+        "04零点",
+        "05本性奇点"
+      ],
+      "firstSectionStructure": [
+        "1. 定义",
+        "2. 洛朗展开与分类"
+      ],
+      "formulas": 241,
+      "mathErrors": 0,
+      "statements": 10,
+      "unboxed": 0,
+      "unboxedConditions": 0,
+      "questions": 4,
+      "inArticleQuestions": 0,
+      "duplicateIds": [],
+      "brokenAnchors": [],
+      "localLinks": [
+        "../复变函数.md",
+        "circuits.html",
+        "analog.html"
+      ],
+      "externalResources": [],
+      "layouts": [
+        {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": []
+        },
+        {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflow": []
+        },
+        {
+          "width": 768,
+          "documentWidth": 768,
+          "overflow": []
+        },
+        {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": []
+        },
+        {
+          "width": 360,
+          "documentWidth": 360,
+          "overflow": []
+        },
+        {
+          "width": 320,
+          "documentWidth": 320,
+          "overflow": []
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "failures": []
+}

@@ -27,7 +27,7 @@ body.large-type{--article-size:18px}body.focus-mode .sidebar,body.focus-mode .ma
 .course-link{display:block;margin-top:15px;padding-top:14px;border-top:1px solid var(--line)}
 .table-wrap,.math-block{position:relative}
 .material-note{font-size:12px;line-height:1.9;color:#6b7d63;margin-top:17px;border-top:1px dashed var(--line);padding-top:12px}.material-note summary{cursor:pointer}.material-note p{margin:12px 0}.material-note strong{font-weight:600}
-.circuit-notes .path-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.circuit-notes .path-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
 .circuit-notes .hero-copy{min-width:0}
 .circuit-notes h1{white-space:normal;font-size:clamp(32px,3.5vw,49px)}
 .circuit-notes .hero-figure{width:270px}

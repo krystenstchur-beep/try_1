@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="490" viewBox="0 0 700 490" role="img" aria-labelledby="title desc">
+<title id="title">输出曲线族与直交流负载线</title><desc id="desc">绿色曲线为固定基极电流时的输出特性。灰色直流负载线与较陡的金色交流负载线在 Q 点相交。交流线由集电极电阻与交流负载并联决定，故两线通常不重合。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4 1 7" fill="none" stroke="#82927d"/></marker></defs>
+<rect width="700" height="490" fill="#fbfcf8" rx="12"/>
+<style>text{font-family:'Microsoft YaHei',sans-serif;font-size:17px;fill:#416346}.m{font-family:Georgia,serif;font-style:italic;font-size:20px}.muted{fill:#84917d;font-size:15px}</style>
+<text x="28" y="35">输出特性：固定 iB，看 iC 随 uCE 变化</text>
+<path d="M83 388H655M83 388V70" stroke="#82927d" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M83 388H655" stroke="#82927d" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M83 388C97 381 104 371 113 370L601 361M83 388C97 348 109 326 128 324L601 311M83 388C98 300 112 286 136 284L601 267M83 388C98 252 116 226 142 224L601 205M83 388C98 199 120 176 151 175L601 155M83 388C100 148 123 126 160 126L601 104" fill="none" stroke="#6e9473" stroke-width="2"/>
+<path d="M83 166L600 388" stroke="#9aa49a" stroke-width="2.5"/>
+<path d="M218 106.2L420 388" stroke="#ba9b61" stroke-width="2.5"/>
+<path d="M83 276.4H340V388" stroke="#729077" stroke-width="1.2" stroke-dasharray="5 5" fill="none"/>
+<circle cx="340" cy="276.4" r="5" fill="#2c6544"/>
+<text x="351" y="268" class="m">Q</text>
+<text x="54" y="82" class="m">iC</text><text x="625" y="413" class="m">uCE</text><text x="43" y="281" class="m">ICQ</text><text x="313" y="413" class="m">UCEQ</text>
+<text x="412" y="335" class="muted">直流：斜率 −1/RC</text><text x="232" y="88" fill="#a18650">交流：斜率 −1/(RC ∥ RL)</text>
+<text x="495" y="90" class="muted">iB 逐条增大 ↑</text>
+<rect x="30" y="438" width="640" height="32" rx="5" fill="#eef3e8"/><text x="45" y="460" class="muted">趋势示意，无数值刻度；基于发射极交流接地的中频近似。</text>
+</svg>

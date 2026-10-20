@@ -14,7 +14,7 @@ function check(ok, message) { if (!ok) failures.push(message); }
   const browser = await chromium.launch({headless:true, executablePath:process.env.BROWSER_EXECUTABLE});
   try {
     for (const [filename, source, data, sectionCount] of [
-      ['circuits.html','电路基础.md','circuits-data.js',4],
+      ['circuits.html','电路基础.md','circuits-data.js',5],
       ['index.html','复变函数.md','notes-data.js',5]
     ]) {
       const context = { window: {} };
@@ -72,20 +72,41 @@ function check(ok, message) { if (!ok) failures.push(message); }
           });
           await page.waitForTimeout(100);
           await page.screenshot({path:path.join(__dirname,'circuits-derivation.png')});
+          await page.evaluate(()=>scrollTo(0,scrollY+document.getElementById('section-5').getBoundingClientRect().top-90));
+          await page.waitForTimeout(100);
+          await page.screenshot({path:path.join(__dirname,'circuits-reciprocity-desktop.png')});
           await page.screenshot({path:path.join(__dirname,'circuits-full-desktop.png'),fullPage:true});
         }
         if(filename==='circuits.html'&&width===390){
           await page.screenshot({path:path.join(__dirname,'circuits-mobile.png')});
           await page.evaluate(()=>scrollTo(0,scrollY+document.getElementById('section-3-part-5').getBoundingClientRect().top-90));
           await page.screenshot({path:path.join(__dirname,'circuits-mobile-content.png')});
+          await page.evaluate(()=>scrollTo(0,scrollY+document.getElementById('section-5').getBoundingClientRect().top-90));
+          await page.screenshot({path:path.join(__dirname,'circuits-reciprocity-mobile.png')});
+          await page.evaluate(()=>scrollTo(0,scrollY+document.getElementById('reciprocity-example').getBoundingClientRect().top-90));
+          await page.screenshot({path:path.join(__dirname,'circuits-reciprocity-example-mobile.png')});
           await page.screenshot({path:path.join(__dirname,'circuits-full-mobile.png'),fullPage:true});
         }
       }
       await page.setViewportSize({width:390,height:844});
       await page.locator('#menu-button').click();
       check(await page.locator('#sidebar').isVisible(),filename+': mobile menu opens');
-      await page.locator('#toc .toc-main').nth(2).click();
+      await page.locator('#toc .toc-main').last().click();
       check(!await page.locator('#sidebar').isVisible(),filename+': mobile menu closes after navigation');
+      check(await page.evaluate(()=>location.hash)==='#section-'+sectionCount,filename+': final section navigation');
+      if(filename==='circuits.html'){
+        const links=await page.locator('#context-margin [data-section="section-5"] a').evaluateAll(elements=>elements.map(el=>el.getAttribute('href')));
+        for(const href of links){
+          await page.locator('.reading-tabs a[href="#questions"]').click();
+          const detail=page.locator('#source-question-archive details').filter({has:page.locator('a[href="'+href+'"]')});
+          if(await detail.getAttribute('open')===null) await detail.locator('summary').click();
+          await detail.locator('a[href="'+href+'"]').click();
+          const top=await page.evaluate(()=>document.querySelector(location.hash).getBoundingClientRect().top);
+          check(top>=60&&top<200,'circuits.html: reciprocity question backlink '+href+' ('+top+')');
+        }
+        const table=page.locator('#section-5 .table-wrap');
+        check(await table.evaluate(el=>el.scrollWidth>el.clientWidth),'circuits.html: reciprocity comparison table scrolls on mobile');
+      }
       await page.locator('.reading-tabs a[href="#questions"]').click();
       const firstQuestion=page.locator('#source-question-archive details').first();
       await firstQuestion.locator('summary').click();

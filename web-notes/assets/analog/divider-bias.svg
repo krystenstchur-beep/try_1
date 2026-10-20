@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="550" viewBox="0 0 700 550" role="img" aria-labelledby="t d">
+<title id="t">分压式部分旁路共射电路</title><desc id="d">RB1 与 RB2 提供基极偏置，RC 是集电极电阻。发射极串联 RE1 与 RE2，CE 只旁路 RE2。输入和负载分别经 C1 和 C2 耦合。直流两射极电阻均保留；中频交流仅 RE1 未被旁路。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4 1 7Z" fill="#426c51"/></marker></defs>
+<rect width="700" height="550" rx="12" fill="#fbfcf8"/>
+<style>text{font-family:Georgia,'Microsoft YaHei',serif;font-size:19px;fill:#35533e}.small{font-family:'Microsoft YaHei',sans-serif;font-size:15px;fill:#7b8c72}.w{fill:none;stroke:#426c51;stroke-width:2}</style>
+<text x="28" y="35" class="small">分压稳定基极 · 发射极电阻形成负反馈 · CE 只旁路 RE2</text>
+<g class="w">
+<path d="M220 95V65H440V95M220 155V225H295M220 225V280M220 340V465H590V340M440 155V180H362V205M295 205V260M295 225L362 190M295 245L362 285V310M362 360V390M362 440V465M362 375H470V399M470 429V465M440 180H511M525 180H590V280M85 225H126M140 225H220M85 225V290M85 340V365M85 405V465H220"/>
+<rect x="208" y="95" width="24" height="60"/><rect x="208" y="280" width="24" height="60"/><rect x="428" y="95" width="24" height="60"/><rect x="350" y="310" width="24" height="50"/><rect x="350" y="390" width="24" height="50"/><rect x="578" y="280" width="24" height="60"/><rect x="73" y="290" width="24" height="50"/>
+<path d="M126 207V243M140 207V243M511 162V198M525 162V198M452 399H488M452 429H488M318 259L345 275" marker-end="url(#a)"/>
+<circle cx="85" cy="385" r="20"/><path d="M75 386Q80 372 85 386T95 386M330 465V480M313 480H347M319 486H341M326 492H334"/>
+</g>
+<g fill="#426c51"><circle cx="220" cy="225" r="4"/><circle cx="362" cy="375" r="4"/><circle cx="440" cy="180" r="4"/></g>
+<text x="453" y="72">+UCC</text><text x="157" y="128">RB1</text><text x="157" y="313">RB2</text><text x="460" y="128">RC</text><text x="382" y="342">RE1</text><text x="382" y="422">RE2</text><text x="500" y="420">CE</text><text x="606" y="313">RL</text><text x="109" y="321">Rs</text><text x="39" y="393">us</text><text x="123" y="190">C1</text><text x="505" y="147">C2</text><text x="603" y="222">uo</text><text x="182" y="215">B</text><text x="365" y="187">C</text><text x="335" y="300">E</text>
+<text x="30" y="529" class="small">直流：RE = RE1 + RE2；中频、旁路充分时：REu = RE1。</text>
+</svg>

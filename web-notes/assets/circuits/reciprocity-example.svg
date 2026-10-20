@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="860" viewBox="0 0 520 860" role="img" aria-labelledby="title desc">
+  <title id="title">互易定理课件例题重绘</title>
+  <desc id="desc">图a端口1注入2安，电压10伏，端口2开路电压5伏。图b端口2注入待求电流，端口1接5欧负载，吸收125瓦。图c为图b从负载端看入的戴维南等效模型。</desc>
+  <style>text{font-family:'Microsoft YaHei',sans-serif;font-size:21px;fill:#38563f}.m{font-family:Georgia,serif;font-size:25px}.wire{fill:none;stroke:#52785a;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.box{fill:#f1f5ec;stroke:#8ca781;stroke-width:2}.small{font-size:18px;fill:#6f8268}.heading{font-size:23px;font-weight:600}</style>
+  <rect width="520" height="860" fill="#fbfcf8"/>
+  <text class="heading" x="22" y="32">(a) 已知：电流激励，另一端开路</text>
+  <rect class="box" x="212" y="70" width="104" height="164" rx="5"/>
+  <text class="m" x="251" y="161">P</text>
+  <path class="wire" d="M80 132V100H212 M80 178V210H212 M316 100H426 M316 210H426"/>
+  <circle class="wire" cx="80" cy="155" r="23"/>
+  <path class="wire" d="M80 169V141m-6 9 6-9 6 9"/>
+  <circle cx="426" cy="100" r="4" fill="#fbfcf8" stroke="#52785a" stroke-width="2"/>
+  <circle cx="426" cy="210" r="4" fill="#fbfcf8" stroke="#52785a" stroke-width="2"/>
+  <text class="m" x="23" y="124">2 A</text>
+  <text class="m" x="133" y="164">10 V</text><text class="m" x="150" y="129">+</text><text class="m" x="150" y="194">−</text>
+  <text class="m" x="392" y="164">5 V</text><text class="m" x="438" y="119">+</text><text class="m" x="438" y="216">−</text>
+  <text class="m" x="181" y="90">1</text><text class="m" x="178" y="235">1′</text>
+  <text class="m" x="334" y="90">2</text><text class="m" x="334" y="235">2′</text>
+  <text class="small" x="375" y="252">开路</text>
+  <path d="M22 277H498" stroke="#dce5d5"/>
+  <g transform="translate(0 280)">
+    <text class="heading" x="22" y="32">(b) 待求：负载吸收 125 W 时的 iₛ</text>
+    <rect class="box" x="212" y="70" width="104" height="164" rx="5"/>
+    <text class="m" x="251" y="161">P</text>
+    <path class="wire" d="M80 135V100H212 M80 175V210H212 M316 100H426V132 M426 178V210H316"/>
+    <rect class="wire" x="70" y="135" width="20" height="40"/>
+    <circle class="wire" cx="426" cy="155" r="23"/>
+    <path class="wire" d="M426 169V141m-6 9 6-9 6 9 M45 100v30m-6-9 6 9 6-9"/>
+    <text class="m" x="20" y="125">I</text><text class="m" x="110" y="162">5 Ω</text>
+    <text class="m" x="462" y="163">iₛ</text>
+    <text class="m" x="181" y="90">1</text><text class="m" x="178" y="235">1′</text>
+    <text class="m" x="334" y="90">2</text><text class="m" x="334" y="235">2′</text>
+    <text class="small" x="55" y="257">负载电流 I 不是短路电流</text>
+  </g>
+  <path d="M22 562H498" stroke="#dce5d5"/>
+  <g transform="translate(0 565)">
+    <text class="heading" x="22" y="32">(c) 从图 (b) 的负载端看入</text>
+    <path class="wire" d="M125 132V83H350V101 M125 172V236H350V214 M350 149V174"/>
+    <rect class="wire" x="115" y="132" width="20" height="40"/>
+    <circle class="wire" cx="350" cy="125" r="24"/>
+    <path class="wire" d="M344 116h12 M350 110v12 M344 135h12 M92 91v30m-6-9 6 9 6-9"/>
+    <rect class="wire" x="340" y="174" width="20" height="40"/>
+    <text class="m" x="67" y="110">I</text><text class="m" x="153" y="158">5 Ω</text>
+    <text class="m" x="386" y="132">U<tspan font-size="17" dy="5">oc</tspan></text>
+    <text class="m" x="385" y="203">R₀</text>
+    <text class="small" x="64" y="273">先恢复开路电压，再应用互易关系</text>
+  </g>
+</svg>

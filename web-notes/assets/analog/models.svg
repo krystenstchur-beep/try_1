@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="540" viewBox="0 0 700 540" role="img" aria-labelledby="title desc">
+<title id="title">直流放大模型与低频小信号模型</title><desc id="desc">上图用固定基射压降和由基极电流控制的集电极电流表示直流放大模型。下图用输入电阻 rbe 与从集电极流向发射极的 beta ib 受控源表示增量模型，输出电阻 rce 为可选项。</desc>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4 1 7Z" fill="#426c51"/></marker></defs>
+<rect width="700" height="540" rx="12" fill="#fbfcf8"/>
+<style>text{font-family:'Microsoft YaHei',sans-serif;fill:#35533e;font-size:17px}.small{font-size:14px;fill:#70836c}.head{font-size:21px;font-weight:600}.wire{stroke:#426c51;stroke-width:2;fill:none}.optional{stroke-dasharray:6 5;stroke:#a58d62}.label{font-family:Georgia,serif;font-style:italic;font-size:20px}</style>
+<text x="30" y="36" class="head">直流 · 先判断工作状态</text>
+<text x="30" y="62" class="small">仅正向放大：给定 UBEQ，忽略漏电与输出斜率</text>
+<g class="wire"><path d="M110 122H250V163M250 197V237H480V195M480 125V92"/><circle cx="250" cy="180" r="17"/><path d="M480 125L510 160 480 195 450 160Z"/><path d="M480 142V177" marker-end="url(#arr)"/><path d="M185 122H220" marker-end="url(#arr)"/></g>
+<text x="94" y="116" class="label">b</text><text x="491" y="96" class="label">c</text><text x="354" y="257" class="label">e</text>
+<text x="264" y="176" class="label">+</text><text x="264" y="199" class="label">−</text><text x="170" y="187" class="label">UBEQ</text><text x="177" y="105" class="label">IBQ</text><text x="520" y="167" class="label">β̄ IBQ</text>
+<path d="M30 279H670" stroke="#dce5d5"/>
+<text x="30" y="312" class="head">交流小信号 · 研究 Q 点附近的增量</text>
+<text x="30" y="338" class="small">正向放大、小信号、低频；所有模型参数由 Q 点决定</text>
+<g class="wire"><path d="M90 382H220V402M220 452V493H470V452M470 382V363M220 493H600V452M600 402V363H470"/><rect x="208" y="402" width="24" height="50"/><path d="M470 382L498 417 470 452 442 417Z"/><path d="M470 397V435" marker-end="url(#arr)"/><path d="M142 382H181" marker-end="url(#arr)"/><rect x="588" y="402" width="24" height="50" class="optional"/></g>
+<text x="72" y="378" class="label">b</text><text x="481" y="370" class="label">c</text><text x="333" y="514" class="label">e</text><text x="151" y="367" class="label">ib</text><text x="165" y="433" class="label">rbe</text><text x="505" y="424" class="label">β ib</text><text x="623" y="435" class="label">rce</text><text x="558" y="521" class="small">虚线元件按需保留</text>
+</svg>
