@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f4">
+  <meta name="description" content="模电第三章3.1—3.9：保留手写结构与理解，连接BJT原理、静态偏置、小信号和三种组态。">
+  <title>第三章 双极型晶体管及其放大电路基础 · 模电笔记</title>
+  <link rel="stylesheet" href="assets/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="analog.css">
+  <script defer src="assets/katex.min.js"></script>
+  <script defer src="assets/marked.umd.js"></script>
+  <script defer src="analog-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body class="circuit-notes analog-notes">
+  <a href="#content" class="skip">跳至正文</a>
+  <div class="reading-progress" aria-hidden="true"><i id="progress"></i></div>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-symbol">β</span><span>模电<span class="brand-sub">学习笔记</span></span></a>
+    <div class="breadcrumb">第三章 <span>/</span> 双极型晶体管与放大电路</div>
+    <div class="toolbar">
+      <button id="font-button" title="切换较大字号" aria-pressed="false">Aa<span>字号</span></button>
+      <button id="focus-button" aria-pressed="false"><span class="focus-icon">⌗</span><span>专注阅读</span></button>
+      <button id="print-button" title="打印或另存为 PDF"><span>打印</span><span aria-hidden="true">↗</span></button>
+      <button id="menu-button" class="mobile-only" aria-expanded="false" aria-controls="sidebar">目录 ☰</button>
+    </div>
+  </header>
+  <aside class="sidebar" id="sidebar" aria-label="章节导航">
+    <div class="sidebar-label">我的知识地图 <span>CONTENTS</span></div>
+    <div class="chapter-title"><span>03</span><div>双极型晶体管与放大电路<small>SECTIONS 3.1 — 3.9</small></div></div>
+    <nav id="toc" aria-label="本章目录"></nav>
+    <div class="sidebar-note"><span class="note-dot"></span> 先理清结构，再连接理解。<p>从器件的结构，<br>走向信号与电路的联系。</p></div>
+    <a href="../模电.md" class="source-link" download>↓ 下载原始 Markdown</a>
+    <a href="../../电路基础/web-notes/circuits.html" class="source-link course-link">电路基础 ↗</a>
+    <a href="../../复变函数/web-notes/index.html" class="source-link course-link">复变函数 ↗</a>
+    <div class="sidebar-bottom"><span>本章阅读进度</span><b id="progress-text">0%</b><div><i id="side-progress"></i></div></div>
+  </aside>
+  <main id="top">
+    <div class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pill">模电</span><span>CHAPTER 03 · SECTIONS 01–09</span></div>
+          <h1 id="page-title">双极型晶体管<span class="title-dot">.</span><small>及其放大电路基础 · 3.1—3.9</small></h1>
+          <p class="hero-intro">先从结构理解放大，<br>再用静态与动态，把器件接成电路。</p>
+          <div class="hero-tags"><span>手写结构</span><span>模型与条件</span><span>静态 → 动态</span></div>
+        </div>
+        <div class="hero-figure">
+          <svg viewBox="0 0 300 235" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">从静态 Q 点到动态信号</title><desc id="figure-desc">输出曲线上的静态工作点与负载线。输入的小变化在工作点附近引起输出变化。</desc>
+<defs><pattern id="analog-grid" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#cad6c5"/></pattern></defs>
+<rect width="300" height="235" fill="url(#analog-grid)"/>
+<path d="M35 190H278M44 206V25" stroke="#a0ac9c" fill="none"/>
+<path d="M44 190Q52 98 85 95L263 86M44 190Q52 134 85 130L263 120M44 190Q52 167 85 165L263 156" fill="none" stroke="#90ab83" stroke-width="1.6"/>
+<path d="M44 53L258 190" stroke="#b2a17d" stroke-width="1.6"/>
+<circle cx="160" cy="127" r="5" fill="#386b4c"/><path d="M160 127V190M44 127H160" stroke="#a2b49a" stroke-dasharray="4 4" fill="none"/>
+<text x="169" y="121" class="svg-math">Q</text><text x="15" y="24" class="svg-math">iC</text><text x="264" y="213" class="svg-math">uCE</text>
+<text x="83" y="229" class="svg-caption">先有工作点，再看变化量。</text></svg>
+          <div class="figure-caption"><span></span>小的信号，控制电源提供的能量。</div>
+        </div>
+      </section>
+      <div class="reading-tabs" role="navigation" aria-label="阅读入口">
+        <a class="active" href="#section-1">完整笔记 <span id="section-count">09</span></a>
+        <a href="#knowledge-map">知识框架 <span>↗</span></a>
+        <a href="#questions">我的疑问 <span id="question-count">15</span></a>
+        <span class="reading-hint">理解 · 推导 · 查阅</span>
+      </div>
+      <section class="quick-reference knowledge-map" id="knowledge-map" aria-labelledby="quick-title">
+        <div class="section-label"><h2 id="quick-title">沿着自己的结构，逐步理解。</h2><span>本章知识框架 · 点击进入</span></div>
+        <div class="path-grid" id="knowledge-path" aria-label="3.1 至 3.9 学习顺序"></div>
+        <div class="path-caption"><span>阅读顺序</span>器件原理 → 放大电路 → 直流定 Q → 交流算性能 → 三种组态</div>
+        <p class="path-note">3.1 保留四个手写板块；3.2—3.4 沿用你的结构与思考；3.5—3.9 按课本补全。</p>
+        <p class="path-note">手写原话以引文保留，AI 补充与原稿修正分别标记。手机从“我的疑问”独立回看，原图索引与待确认项见 3.9。</p>
+        <details class="material-note"><summary>材料顺序与整理约定</summary><div id="note-preface"></div></details>
+      </section>
+      <div class="body-layout">
+        <article id="content" class="article" aria-label="完整学习笔记"><p class="loading">正在排版笔记…</p></article>
+        <aside class="margin-notes" aria-label="阅读提示">
+          <div id="general-margin">
+            <div class="margin-block"><span class="margin-kicker">THE BIG IDEA</span><h3>先定静态，<br>再看变化。</h3><p>先判断工作区，<br>再选择合适模型。</p><div class="margin-formula" data-math="i_C=I_{CQ}+i_c"></div><small class="factor-condition">Q 点决定小信号模型的参数。</small></div>
+            <div class="margin-tip"><span>公式前先看条件</span><p>正向放大、<strong>小信号</strong>、中频，<br>再检查实际负载与旁路。</p><div data-math="I_E=I_B+I_C"></div><small>不削顶的边界与小失真要求分别检查。</small></div>
+            <a class="margin-question" href="#questions"><span>?</span><div>当时为什么卡住？<small>回到自己的理解路径 ↗</small></div></a>
+          </div>
+          <div id="context-margin"></div>
+        </aside>
+      </div>
+      <section id="questions" class="questions" aria-labelledby="questions-title">
+        <div class="section-label"><h2 id="questions-title">把疑问，变成理解的入口。</h2><span>MY UNDERSTANDING</span></div>
+        <div id="source-question-archive"></div>
+      </section>
+      <footer class="footer"><div><span class="footer-mark">β</span>模电 · 个人学习笔记</div><span>保留思考，让理解可以重访。</span><a href="#top">回到顶部 ↑</a></footer>
+    </div>
+  </main>
+  <noscript><p>此页面需要开启 JavaScript 进行笔记和公式排版。也可以阅读 <a href="../模电.md">Markdown 原文</a>。</p></noscript>
+</body>
+</html>

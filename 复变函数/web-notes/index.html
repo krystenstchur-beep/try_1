@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f4">
+  <meta name="description" content="复变函数学习笔记：孤立奇点与零点。从知识结构，到真正想通。">
+  <title>5.1 孤立奇点与零点 · 复变函数笔记</title>
+  <link rel="stylesheet" href="assets/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="assets/katex.min.js"></script>
+  <script defer src="assets/marked.umd.js"></script>
+  <script defer src="notes-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a href="#content" class="skip">跳至正文</a>
+  <div class="reading-progress" aria-hidden="true"><i id="progress"></i></div>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-symbol">ƒ</span><span>复变函数<span class="brand-sub">学习笔记</span></span></a>
+    <div class="breadcrumb">第五章 <span>/</span> 孤立奇点与零点</div>
+    <div class="toolbar">
+      <button id="font-button" title="切换较大字号" aria-pressed="false">Aa<span>字号</span></button>
+      <button id="focus-button" aria-pressed="false"><span class="focus-icon">⌗</span><span>专注阅读</span></button>
+      <button id="print-button" title="打印或另存为 PDF"><span>打印</span><span aria-hidden="true">↗</span></button>
+      <button id="menu-button" class="mobile-only" aria-expanded="false" aria-controls="sidebar">目录 ☰</button>
+    </div>
+  </header>
+  <aside class="sidebar" id="sidebar" aria-label="章节导航">
+    <div class="sidebar-label">我的知识地图 <span>CONTENTS</span></div>
+    <div class="chapter-title"><span>05</span><div>孤立奇点与零点<small>SECTION 5.1</small></div></div>
+    <nav id="toc" aria-label="本节目录"></nav>
+    <div class="sidebar-note"><span class="note-dot"></span> 先理清结构，再连接理解。<p>让每一个“为什么”，<br>都有可以回来的地方。</p></div>
+    <a href="../复变函数.md" class="source-link" download>↓ 下载原始 Markdown</a>
+    <a href="../../电路基础/web-notes/circuits.html" class="source-link course-link">另一门课 · 电路基础 ↗</a>
+    <a href="../../模电/web-notes/analog.html" class="source-link course-link">模电 · 第三章 ↗</a>
+    <div class="sidebar-bottom"><span>本节阅读进度</span><b id="progress-text">0%</b><div><i id="side-progress"></i></div></div>
+  </aside>
+  <main id="top">
+    <div class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pill">复变函数</span><span>CHAPTER 05 · SECTION 01</span></div>
+          <h1 id="page-title">孤立奇点<span class="title-and">与</span>零点<span class="title-dot">.</span></h1>
+          <p class="hero-intro">从孤立奇点出发，<br>用局部展开，连接奇点分类与零点阶数。</p>
+          <div class="hero-tags"><span>洛朗展开</span><span>局部性质</span><span>个人理解</span></div>
+        </div>
+        <div class="hero-figure">
+          <svg viewBox="0 0 330 245" role="img" aria-labelledby="figure-title figure-desc">
+            <title id="figure-title">孤立奇点的去心邻域</title>
+            <desc id="figure-desc">复平面中，以 z 零为中心、半径为 delta 的圆内除中心点外处处解析。</desc>
+            <defs><pattern id="grid" width="19" height="19" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#cbd7ce"/></pattern></defs>
+            <rect width="330" height="245" fill="url(#grid)"/>
+            <circle cx="164" cy="124" r="83" fill="#dfebe1" fill-opacity=".68" stroke="#779d85" stroke-width="1.2" stroke-dasharray="4 5"/>
+            <path d="M28 124H307M164 228V16" stroke="#a0ada3" stroke-width="1"/>
+            <path d="m301 120 7 4-7 4m-141-105 4-7 4 7" stroke="#a0ada3" fill="none"/>
+            <path d="M164 124 229 73" stroke="#377558" stroke-width="1.2"/>
+            <circle cx="164" cy="124" r="5" fill="#f7f8f4" stroke="#226248" stroke-width="2"/>
+            <circle cx="207" cy="155" r="3.5" fill="#226248"/>
+            <text x="175" y="144" class="svg-math">z₀</text><text x="199" y="92" class="svg-math">δ</text>
+            <text x="216" y="157" class="svg-math">z</text>
+            <text x="292" y="145" class="svg-label">Re</text><text x="177" y="26" class="svg-label">Im</text>
+            <text x="96" y="238" class="svg-caption">0 &lt; |z − z₀| &lt; δ</text>
+          </svg>
+          <div class="figure-caption"><span></span>中心可以例外，周围必须解析。</div>
+        </div>
+      </section>
+      <div class="reading-tabs" role="navigation" aria-label="阅读入口">
+        <a class="active" href="#section-1">完整笔记 <span id="section-count">05</span></a>
+        <a href="#knowledge-map">知识框架 <span>↗</span></a>
+        <a href="#questions">我的疑问 <span id="question-count">04</span></a>
+        <span class="reading-hint">理解 · 推导 · 查阅</span>
+      </div>
+      <section class="quick-reference knowledge-map" id="knowledge-map" aria-labelledby="quick-title">
+        <div class="section-label"><h2 id="quick-title">沿着自己的结构，逐步理解。</h2><span>本节知识框架 · 点击进入</span></div>
+        <div class="path-grid" id="knowledge-path" aria-label="五部分学习顺序"></div>
+        <div class="path-caption"><span>阅读顺序</span>孤立奇点 → 可去奇点 → 极点 → 零点 → 本性奇点</div>
+        <p class="path-note">零点不属于奇点分类；把它放在极点之后，是为了连接二者的局部形式与判别方法。</p>
+      </section>
+      <div class="body-layout">
+        <article id="content" class="article" aria-label="完整学习笔记"><p class="loading">正在排版笔记…</p></article>
+        <aside class="margin-notes" aria-label="阅读提示">
+          <div id="general-margin">
+          <div class="margin-block"><span class="margin-kicker">THE BIG IDEA</span><h3>提取因子，<br>读出阶数。</h3><p>看负幂识别极点，<br>看正幂识别零点。</p><div class="margin-formula" data-math="f(z)=(z-z_0)^{\pm m}\varphi(z)"></div><small class="factor-condition">解析因子在中心不为零。</small></div>
+          <div class="margin-tip"><span>记住这个区别</span><p>极点的阶数看<strong>最高负幂次数</strong>，不是实际出现了几个负幂项。</p><div data-math="\frac{1}{(z-z_0)^5}"></div><small>一个负幂项，五阶极点。</small></div>
+          <a class="margin-question" href="#questions"><span>?</span><div>当时为什么卡住？<small>回到自己的理解路径 ↗</small></div></a>
+          </div>
+          <div id="context-margin"></div>
+        </aside>
+      </div>
+      <section id="questions" class="questions" aria-labelledby="questions-title">
+        <div class="section-label"><h2 id="questions-title">把疑问，变成理解的入口。</h2><span>MY UNDERSTANDING</span></div>
+        <div id="source-question-archive"></div>
+      </section>
+      <footer class="footer"><div><span class="footer-mark">ƒ</span>复变函数 · 个人学习笔记</div><span>保留思考，让理解可以重访。</span><a href="#top">回到顶部 ↑</a></footer>
+    </div>
+  </main>
+  <noscript><p>此页面需要开启 JavaScript 进行笔记和公式排版。你也可以阅读 <a href="../复变函数.md">Markdown 原文</a>。</p></noscript>
+</body>
+</html>

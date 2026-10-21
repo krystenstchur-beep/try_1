@@ -1,0 +1,131 @@
+{
+  "report": [
+    {
+      "filename": "circuits.html",
+      "title": "第四章 电路基本定理 · 电路基础笔记",
+      "sections": 5,
+      "headings": [
+        "4.1叠加定理与齐次定理",
+        "4.2替代定理",
+        "4.3等效电源定理",
+        "4.4最大功率传输定理",
+        "4.5互易定理"
+      ],
+      "mathErrors": 0,
+      "formulas": 442,
+      "statements": 25,
+      "unboxedConclusions": 0,
+      "questions": 11,
+      "bodyAsides": 0,
+      "duplicates": [],
+      "brokenAnchors": [],
+      "layouts": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "overflowing": []
+        },
+        {
+          "width": 1024,
+          "viewport": 1024,
+          "documentWidth": 1024,
+          "overflowing": []
+        },
+        {
+          "width": 768,
+          "viewport": 768,
+          "documentWidth": 768,
+          "overflowing": []
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "documentWidth": 390,
+          "overflowing": []
+        },
+        {
+          "width": 360,
+          "viewport": 360,
+          "documentWidth": 360,
+          "overflowing": []
+        },
+        {
+          "width": 320,
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflowing": []
+        }
+      ],
+      "errors": [],
+      "backlink": {
+        "hash": "#superposition",
+        "top": 91.65625
+      }
+    },
+    {
+      "filename": "index.html",
+      "title": "5.1 孤立奇点与零点 · 复变函数笔记",
+      "sections": 5,
+      "headings": [
+        "01孤立奇点",
+        "02可去奇点",
+        "03极点",
+        "04零点",
+        "05本性奇点"
+      ],
+      "mathErrors": 0,
+      "formulas": 239,
+      "statements": 10,
+      "unboxedConclusions": 0,
+      "questions": 4,
+      "bodyAsides": 0,
+      "duplicates": [],
+      "brokenAnchors": [],
+      "layouts": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "overflowing": []
+        },
+        {
+          "width": 1024,
+          "viewport": 1024,
+          "documentWidth": 1024,
+          "overflowing": []
+        },
+        {
+          "width": 768,
+          "viewport": 768,
+          "documentWidth": 768,
+          "overflowing": []
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "documentWidth": 390,
+          "overflowing": []
+        },
+        {
+          "width": 360,
+          "viewport": 360,
+          "documentWidth": 360,
+          "overflowing": []
+        },
+        {
+          "width": 320,
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflowing": []
+        }
+      ],
+      "errors": [],
+      "backlink": {
+        "hash": "#removable-question",
+        "top": 91.953125
+      }
+    }
+  ],
+  "failures": []
+}
