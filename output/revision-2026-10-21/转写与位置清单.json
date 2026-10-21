@@ -1,0 +1,140 @@
+[
+  {
+    "id": "hand1-1",
+    "page": "hand1-1",
+    "anchor": "bjt-structure",
+    "characters": 344
+  },
+  {
+    "id": "hand1-2a",
+    "page": "hand1-2",
+    "anchor": "bjt-structure",
+    "characters": 201
+  },
+  {
+    "id": "hand1-2b",
+    "page": "hand1-2",
+    "anchor": "bjt-active",
+    "characters": 182
+  },
+  {
+    "id": "hand1-3",
+    "page": "hand1-3",
+    "anchor": "bjt-active",
+    "characters": 326
+  },
+  {
+    "id": "hand1-4",
+    "page": "hand1-4",
+    "anchor": "carrier-process",
+    "characters": 810
+  },
+  {
+    "id": "hand1-5",
+    "page": "hand1-5",
+    "anchor": "control-view",
+    "characters": 934
+  },
+  {
+    "id": "hand1-6",
+    "page": "hand1-6",
+    "anchor": "three-connections",
+    "characters": 443
+  },
+  {
+    "id": "hand1-7",
+    "page": "hand1-7",
+    "anchor": "three-connections",
+    "characters": 816
+  },
+  {
+    "id": "hand1-8",
+    "page": "hand1-8",
+    "anchor": "voltage-original",
+    "characters": 841
+  },
+  {
+    "id": "hand1-9",
+    "page": "hand1-9",
+    "anchor": "input-characteristic",
+    "characters": 778
+  },
+  {
+    "id": "hand1-10",
+    "page": "hand1-10",
+    "anchor": "output-characteristic",
+    "characters": 597
+  },
+  {
+    "id": "hand1-11",
+    "page": "hand1-11",
+    "anchor": "saturation-boundary",
+    "characters": 802
+  },
+  {
+    "id": "hand1-12",
+    "page": "hand1-12",
+    "anchor": "dc-model",
+    "characters": 496
+  },
+  {
+    "id": "hand1-13",
+    "page": "hand1-13",
+    "anchor": "dc-model",
+    "characters": 142
+  },
+  {
+    "id": "hand2-1",
+    "page": "hand2-1",
+    "anchor": "two-port",
+    "characters": 436
+  },
+  {
+    "id": "hand2-2a",
+    "page": "hand2-2",
+    "anchor": "ce-composition",
+    "characters": 135
+  },
+  {
+    "id": "hand2-2b",
+    "page": "hand2-2",
+    "anchor": "bias-stage",
+    "characters": 443
+  },
+  {
+    "id": "hand2-3a",
+    "page": "hand2-3",
+    "anchor": "dc-ac-paths",
+    "characters": 265
+  },
+  {
+    "id": "hand2-3b",
+    "page": "hand2-3",
+    "anchor": "q-graph",
+    "characters": 285
+  },
+  {
+    "id": "hand2-4a",
+    "page": "hand2-4",
+    "anchor": "fixed-bias",
+    "characters": 220
+  },
+  {
+    "id": "hand2-4b",
+    "page": "hand2-4",
+    "anchor": "q-drift",
+    "characters": 433
+  },
+  {
+    "id": "hand2-5a",
+    "page": "hand2-5",
+    "anchor": "divider-feedback",
+    "characters": 479
+  },
+  {
+    "id": "hand2-5b",
+    "page": "hand2-5",
+    "anchor": "divider-q",
+    "characters": 433
+  }
+]

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="470" viewBox="0 0 700 470" role="img" aria-labelledby="t d">
+<title id="t">共集电极中频交流通路</title><desc id="d">集电极接交流地，基极为输入端，发射极为输出端。基极偏置电阻 RB 接地，发射极 RE 和负载 RL 并联接地。直流供电在本图仅以交流地表示。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4 1 7Z" fill="#426c51"/></marker></defs>
+<rect width="700" height="470" fill="#fbfcf8" rx="12"/>
+<style>text{font-family:Georgia,'Microsoft YaHei',serif;font-size:22px;fill:#35533e}.small{font-family:'Microsoft YaHei',sans-serif;font-size:16px;fill:#7b8c72}.w{fill:none;stroke:#426c51;stroke-width:2}</style>
+<text x="30" y="35" class="small">共集 CC：B 输入 → E 输出；C 为交流公共端</text>
+<g class="w"><path d="M100 163H285M180 163V220M180 280V385H560V340M285 140V193M285 149L365 105H430V120M285 184L365 231V260H560V280M365 260V300M365 350V385M100 385H180M350 385V401M332 401H368M338 408H362M345 415H355M430 120V130M414 130H446M420 137H440M426 144H434"/>
+<rect x="168" y="220" width="24" height="60"/><rect x="353" y="300" width="24" height="50"/><rect x="548" y="280" width="24" height="60"/><path d="M313 200L345 219" marker-end="url(#a)"/>
+<circle cx="100" cy="163" r="4"/><circle cx="100" cy="385" r="4"/><circle cx="365" cy="260" r="4"/></g>
+<text x="115" y="149">B</text><text x="380" y="97">C</text><text x="382" y="250">E</text><text x="110" y="255">RB</text><text x="385" y="333">RE</text><text x="585" y="316">RL</text><text x="64" y="250">ui</text><text x="500" y="239">uo</text><text x="475" y="121" class="small">交流地</text>
+<text x="30" y="454" class="small">只画中频信号通路；Q 点另由直流电路求得。</text>
+</svg>
