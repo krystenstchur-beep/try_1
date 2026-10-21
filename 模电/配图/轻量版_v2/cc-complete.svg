@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" role="img"><title>共集完整电路：固定偏置射极输出器</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#226e68"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#22313d;font-size:23px} .wire{fill:none;stroke:#344957;stroke-width:2.5;stroke-linejoin:round} .curve{fill:none;stroke:#226e68;stroke-width:3.5} .small{font-size:20px} .title{font-size:28px;font-weight:600} .note{font-size:20px;fill:#536473}</style>
+<rect width="1100" height="640" rx="12" fill="#fff"/><rect x="1" y="1" width="1098" height="638" rx="12" fill="none" stroke="#d5dfdf"/>
+<text x="30" y="43" class="title" text-anchor="start">共集完整电路：固定偏置射极输出器</text>
+<path class="wire" d="M460 270L505 270"/>
+<path class="wire" d="M505 240L505 300"/>
+<path class="wire" d="M505 254L550 227"/>
+<path class="wire" d="M550 227L550 210"/>
+<path class="wire" d="M505 286L550 313" marker-end="url(#a)"/>
+<path class="wire" d="M550 313L550 330"/>
+<text x="481" y="233" class="small" text-anchor="start">B</text>
+<text x="560" y="223" class="small" text-anchor="start">C</text>
+<text x="560" y="321" class="small" text-anchor="start">E</text>
+<path class="wire" d="M300 110L550 110"/>
+<text x="575" y="118" class="" text-anchor="start">+UCC</text>
+<circle cx="550" cy="110" r="4" fill="#344957"/>
+<path class="wire" d="M300 110L300 164.0"/>
+<path class="wire" d="M300 216.0L300 270"/>
+<rect x="291" y="164.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="282" y="197.0" class="" text-anchor="end">RB</text>
+<path class="wire" d="M300 270L460 270"/>
+<circle cx="300" cy="270" r="4" fill="#344957"/>
+<path class="wire" d="M550 110L550 210"/>
+<path class="wire" d="M90 270L189.0 270"/>
+<path class="wire" d="M201.0 270L300 270"/>
+<path class="wire" d="M189.0 250L189.0 290"/>
+<path class="wire" d="M201.0 250L201.0 290"/>
+<text x="195.0" y="239" class="" text-anchor="middle">C1</text>
+<text x="65" y="275" class="" text-anchor="end">ui</text>
+<path class="wire" d="M550 330L550 370"/>
+<circle cx="550" cy="370" r="4" fill="#344957"/>
+<path class="wire" d="M550 370L704.0 370"/>
+<path class="wire" d="M716.0 370L870 370"/>
+<path class="wire" d="M704.0 350L704.0 390"/>
+<path class="wire" d="M716.0 350L716.0 390"/>
+<text x="710.0" y="339" class="" text-anchor="middle">C2</text>
+<path class="wire" d="M550 370L550 426.5"/>
+<path class="wire" d="M550 478.5L550 535"/>
+<rect x="541" y="426.5" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="532" y="459.5" class="" text-anchor="end">RE</text>
+<path class="wire" d="M870 370L870 426.5"/>
+<path class="wire" d="M870 478.5L870 535"/>
+<rect x="861" y="426.5" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="888" y="459.5" class="" text-anchor="start">RL</text>
+<path class="wire" d="M100 535L870 535"/>
+<path class="wire" d="M550 535L550 547"/>
+<path class="wire" d="M535 547L565 547"/>
+<path class="wire" d="M540 553L560 553"/>
+<path class="wire" d="M545 559L555 559"/>
+<text x="915" y="380" class="" text-anchor="start">uo</text>
+<text x="35" y="595" class="note" text-anchor="start">ui、uo 均相对下方公共参考线；信号源内阻可按题意另接。</text>
+<text x="35" y="625" class="note" text-anchor="start">求直流：所有电容开路。求中频交流：耦合／旁路电容按满足条件后的短路处理。</text></svg>

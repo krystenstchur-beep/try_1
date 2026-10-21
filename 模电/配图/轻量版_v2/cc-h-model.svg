@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img"><title>共集小信号模型：C 接交流地，输出取 E</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#226e68"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#22313d;font-size:23px} .wire{fill:none;stroke:#344957;stroke-width:2.5;stroke-linejoin:round} .curve{fill:none;stroke:#226e68;stroke-width:3.5} .small{font-size:20px} .title{font-size:28px;font-weight:600} .note{font-size:20px;fill:#536473}</style>
+<rect width="1100" height="600" rx="12" fill="#fff"/><rect x="1" y="1" width="1098" height="598" rx="12" fill="none" stroke="#d5dfdf"/>
+<text x="30" y="43" class="title" text-anchor="start">共集小信号模型：C 接交流地，输出取 E</text>
+<path class="wire" d="M90 170L350 170"/>
+<circle cx="230" cy="170" r="4" fill="#344957"/>
+<text x="80" y="150" class="" text-anchor="start">ui</text>
+<path class="wire" d="M230 170L230 274.0"/>
+<path class="wire" d="M230 326.0L230 430"/>
+<rect x="221" y="274.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="212" y="307.0" class="" text-anchor="end">RB(a)</text>
+<path class="wire" d="M230 430L230 442"/>
+<path class="wire" d="M215 442L245 442"/>
+<path class="wire" d="M220 448L240 448"/>
+<path class="wire" d="M225 454L235 454"/>
+<path class="wire" d="M350 170L350 229.0"/>
+<path class="wire" d="M350 281.0L350 340"/>
+<rect x="341" y="229.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="332" y="262.0" class="" text-anchor="end">rbe</text>
+<path class="wire" d="M350 340L940 340"/>
+<circle cx="620" cy="340" r="4" fill="#344957"/>
+<circle cx="800" cy="340" r="4" fill="#344957"/>
+<text x="980" y="350" class="" text-anchor="start">uo</text>
+<path class="wire" d="M620 150L620 213.0"/>
+<path class="wire" d="M620 277.0L620 340"/>
+<path class="wire" d="M620 213.0L644 245.0L620 277.0L596 245.0Z"/>
+<path class="wire" d="M620 227.0L620 263.0" marker-end="url(#a)"/>
+<text x="655" y="253.0" class="" text-anchor="start">βib</text>
+<g transform="translate(620 150) rotate(180)">
+<path class="wire" d="M0 0L0 12"/>
+<path class="wire" d="M-15 12L15 12"/>
+<path class="wire" d="M-10 18L10 18"/>
+<path class="wire" d="M-5 24L5 24"/>
+</g>
+<text x="650" y="140" class="small" text-anchor="start">C：交流地</text>
+<path class="wire" d="M800 340L800 379.0"/>
+<path class="wire" d="M800 431.0L800 470"/>
+<rect x="791" y="379.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="782" y="412.0" class="" text-anchor="end">RE</text>
+<path class="wire" d="M940 340L940 379.0"/>
+<path class="wire" d="M940 431.0L940 470"/>
+<rect x="931" y="379.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="958" y="412.0" class="" text-anchor="start">RL</text>
+<path class="wire" d="M800 470L800 482"/>
+<path class="wire" d="M785 482L815 482"/>
+<path class="wire" d="M790 488L810 488"/>
+<path class="wire" d="M795 494L805 494"/>
+<path class="wire" d="M940 470L940 482"/>
+<path class="wire" d="M925 482L955 482"/>
+<path class="wire" d="M930 488L950 488"/>
+<path class="wire" d="M935 494L945 494"/>
+<path class="wire" d="M270 145L330 145" marker-end="url(#a)"/>
+<text x="278" y="128" class="" text-anchor="start">ib</text>
+<text x="355" y="150" class="" text-anchor="start">B</text>
+<text x="640" y="325" class="" text-anchor="start">E</text>
+<text x="40" y="551" class="note" text-anchor="start">沿 B→E：ui = ib rbe + uo；E 节点向 RE ∥ RL 提供 (1 + β) ib。</text>
+<text x="40" y="585" class="note" text-anchor="start">中频、放大区、小信号；忽略管子输出电阻 ro。各地符号表示同一交流参考点。</text></svg>

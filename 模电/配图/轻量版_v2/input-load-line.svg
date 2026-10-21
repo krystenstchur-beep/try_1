@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img"><title>静态图解：器件曲线与外电路负载线必须同时满足</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#226e68"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#22313d;font-size:23px} .wire{fill:none;stroke:#344957;stroke-width:2.5;stroke-linejoin:round} .curve{fill:none;stroke:#226e68;stroke-width:3.5} .small{font-size:20px} .title{font-size:28px;font-weight:600} .note{font-size:20px;fill:#536473}</style>
+<rect width="1100" height="520" rx="12" fill="#fff"/><rect x="1" y="1" width="1098" height="518" rx="12" fill="none" stroke="#d5dfdf"/>
+<text x="30" y="43" class="title" text-anchor="start">静态图解：器件曲线与外电路负载线必须同时满足</text>
+<path class="wire" d="M100 410L100 100" marker-end="url(#a)"/>
+<path class="wire" d="M100 410L900 410" marker-end="url(#a)"/>
+<text x="65" y="92" class="" text-anchor="start">iB</text>
+<text x="916" y="418" class="" text-anchor="start">uBE</text>
+<path class="curve" d="M105 409 C320 409 470 402 535 345 C580 300 610 190 640 105"/>
+<path class="wire" d="M100 98L845 410" style="stroke:#a95432"/>
+<circle cx="569" cy="295" r="4" fill="#344957"/>
+<path class="wire" d="M569 295L569 410" stroke-dasharray="6 6"/>
+<path class="wire" d="M100 295L569 295" stroke-dasharray="6 6"/>
+<text x="585" y="287" class="" text-anchor="start">Q</text>
+<text x="550" y="446" class="" text-anchor="middle">UBEQ</text>
+<text x="82" y="302" class="" text-anchor="end">IBQ</text>
+<text x="690" y="184" class="small" text-anchor="start">输入特性</text>
+<text x="185" y="115" class="small" text-anchor="start">iB = (UBB − uBE) / RB</text>
+<text x="825" y="446" class="small" text-anchor="start">UBB</text>
+<text x="50" y="490" class="note" text-anchor="start">示意图无数值刻度；交点给出 UBEQ、IBQ，再由输出回路确定 ICQ、UCEQ。</text></svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img"><title>共射小信号模型：未旁路的 REa 仍在回路中</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#226e68"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#22313d;font-size:23px} .wire{fill:none;stroke:#344957;stroke-width:2.5;stroke-linejoin:round} .curve{fill:none;stroke:#226e68;stroke-width:3.5} .small{font-size:20px} .title{font-size:28px;font-weight:600} .note{font-size:20px;fill:#536473}</style>
+<rect width="1100" height="600" rx="12" fill="#fff"/><rect x="1" y="1" width="1098" height="598" rx="12" fill="none" stroke="#d5dfdf"/>
+<text x="30" y="43" class="title" text-anchor="start">共射小信号模型：未旁路的 REa 仍在回路中</text>
+<path class="wire" d="M90 170L350 170"/>
+<circle cx="230" cy="170" r="4" fill="#344957"/>
+<text x="80" y="160" class="" text-anchor="start">ui</text>
+<path class="wire" d="M230 170L230 276.5"/>
+<path class="wire" d="M230 328.5L230 435"/>
+<rect x="221" y="276.5" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="212" y="309.5" class="" text-anchor="end">RB(a)</text>
+<path class="wire" d="M230 435L230 447"/>
+<path class="wire" d="M215 447L245 447"/>
+<path class="wire" d="M220 453L240 453"/>
+<path class="wire" d="M225 459L235 459"/>
+<path class="wire" d="M350 170L350 224.0"/>
+<path class="wire" d="M350 276.0L350 330"/>
+<rect x="341" y="224.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="332" y="257.0" class="" text-anchor="end">rbe</text>
+<path class="wire" d="M350 330L620 330"/>
+<circle cx="480" cy="330" r="4" fill="#344957"/>
+<path class="wire" d="M480 330L480 374.0"/>
+<path class="wire" d="M480 426.0L480 470"/>
+<rect x="471" y="374.0" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="498" y="407.0" class="" text-anchor="start">REa</text>
+<path class="wire" d="M480 470L480 482"/>
+<path class="wire" d="M465 482L495 482"/>
+<path class="wire" d="M470 488L490 488"/>
+<path class="wire" d="M475 494L485 494"/>
+<path class="wire" d="M620 170L620 218.0"/>
+<path class="wire" d="M620 282.0L620 330"/>
+<path class="wire" d="M620 218.0L644 250.0L620 282.0L596 250.0Z"/>
+<path class="wire" d="M620 232.0L620 268.0" marker-end="url(#a)"/>
+<text x="655" y="258.0" class="" text-anchor="start">βib</text>
+<path class="wire" d="M620 170L940 170"/>
+<circle cx="620" cy="170" r="4" fill="#344957"/>
+<circle cx="800" cy="170" r="4" fill="#344957"/>
+<path class="wire" d="M800 170L800 276.5"/>
+<path class="wire" d="M800 328.5L800 435"/>
+<rect x="791" y="276.5" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="782" y="309.5" class="" text-anchor="end">RC</text>
+<path class="wire" d="M940 170L940 276.5"/>
+<path class="wire" d="M940 328.5L940 435"/>
+<rect x="931" y="276.5" width="18" height="52" fill="white" stroke="#344957" stroke-width="2.5"/>
+<text x="958" y="309.5" class="" text-anchor="start">RL</text>
+<path class="wire" d="M800 435L800 447"/>
+<path class="wire" d="M785 447L815 447"/>
+<path class="wire" d="M790 453L810 453"/>
+<path class="wire" d="M795 459L805 459"/>
+<path class="wire" d="M940 435L940 447"/>
+<path class="wire" d="M925 447L955 447"/>
+<path class="wire" d="M930 453L950 453"/>
+<path class="wire" d="M935 459L945 459"/>
+<text x="975" y="180" class="" text-anchor="start">uo</text>
+<path class="wire" d="M270 145L330 145" marker-end="url(#a)"/>
+<text x="278" y="128" class="" text-anchor="start">ib</text>
+<text x="355" y="150" class="" text-anchor="start">B</text>
+<text x="630" y="155" class="" text-anchor="start">C</text>
+<text x="490" y="315" class="" text-anchor="start">E</text>
+<text x="40" y="552" class="note" text-anchor="start">REa = 0：E 直接接交流地；充分旁路时 REa = 0，部分旁路时仅保留未旁路部分。</text>
+<text x="40" y="585" class="note" text-anchor="start">中频、放大区、小信号；忽略管子输出电阻 ro。各地符号表示同一交流参考点。</text></svg>

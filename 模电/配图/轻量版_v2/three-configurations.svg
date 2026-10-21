@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460" role="img"><title>三种连接方式：看输入端、输出端与交流公共端</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#226e68"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#22313d;font-size:23px} .wire{fill:none;stroke:#344957;stroke-width:2.5;stroke-linejoin:round} .curve{fill:none;stroke:#226e68;stroke-width:3.5} .small{font-size:20px} .title{font-size:28px;font-weight:600} .note{font-size:20px;fill:#536473}</style>
+<rect width="1100" height="460" rx="12" fill="#fff"/><rect x="1" y="1" width="1098" height="458" rx="12" fill="none" stroke="#d5dfdf"/>
+<text x="30" y="43" class="title" text-anchor="start">三种连接方式：看输入端、输出端与交流公共端</text>
+<text x="200" y="100" class="" text-anchor="middle">共射 CE</text>
+<path class="wire" d="M140 240L185 240"/>
+<path class="wire" d="M185 210L185 270"/>
+<path class="wire" d="M185 224L230 197"/>
+<path class="wire" d="M230 197L230 180"/>
+<path class="wire" d="M185 256L230 283" marker-end="url(#a)"/>
+<path class="wire" d="M230 283L230 300"/>
+<text x="161" y="203" class="small" text-anchor="start">B</text>
+<text x="240" y="193" class="small" text-anchor="start">C</text>
+<text x="240" y="291" class="small" text-anchor="start">E</text>
+<circle cx="140" cy="240" r="4" fill="#344957"/>
+<path class="wire" d="M75 240L140 240"/>
+<text x="70" y="247" class="small" text-anchor="end">输入</text>
+<circle cx="230" cy="180" r="4" fill="#344957"/>
+<path class="wire" d="M230 180L230 145"/>
+<text x="240" y="150" class="small" text-anchor="start">输出</text>
+<circle cx="230" cy="300" r="4" fill="#344957"/>
+<path class="wire" d="M230 300L230 335"/>
+<text x="240" y="340" class="small" text-anchor="start">公共</text>
+<text x="200" y="398" class="small" text-anchor="middle">输入 B—E；输出 C—E</text>
+<text x="540" y="100" class="" text-anchor="middle">共集 CC</text>
+<path class="wire" d="M480 240L525 240"/>
+<path class="wire" d="M525 210L525 270"/>
+<path class="wire" d="M525 224L570 197"/>
+<path class="wire" d="M570 197L570 180"/>
+<path class="wire" d="M525 256L570 283" marker-end="url(#a)"/>
+<path class="wire" d="M570 283L570 300"/>
+<text x="501" y="203" class="small" text-anchor="start">B</text>
+<text x="580" y="193" class="small" text-anchor="start">C</text>
+<text x="580" y="291" class="small" text-anchor="start">E</text>
+<circle cx="480" cy="240" r="4" fill="#344957"/>
+<path class="wire" d="M415 240L480 240"/>
+<text x="410" y="247" class="small" text-anchor="end">输入</text>
+<circle cx="570" cy="180" r="4" fill="#344957"/>
+<path class="wire" d="M570 180L570 145"/>
+<text x="580" y="150" class="small" text-anchor="start">公共</text>
+<circle cx="570" cy="300" r="4" fill="#344957"/>
+<path class="wire" d="M570 300L570 335"/>
+<text x="580" y="340" class="small" text-anchor="start">输出</text>
+<text x="540" y="398" class="small" text-anchor="middle">输入 B—C；输出 E—C</text>
+<text x="880" y="100" class="" text-anchor="middle">共基 CB</text>
+<path class="wire" d="M820 240L865 240"/>
+<path class="wire" d="M865 210L865 270"/>
+<path class="wire" d="M865 224L910 197"/>
+<path class="wire" d="M910 197L910 180"/>
+<path class="wire" d="M865 256L910 283" marker-end="url(#a)"/>
+<path class="wire" d="M910 283L910 300"/>
+<text x="841" y="203" class="small" text-anchor="start">B</text>
+<text x="920" y="193" class="small" text-anchor="start">C</text>
+<text x="920" y="291" class="small" text-anchor="start">E</text>
+<circle cx="820" cy="240" r="4" fill="#344957"/>
+<path class="wire" d="M755 240L820 240"/>
+<text x="750" y="247" class="small" text-anchor="end">公共</text>
+<circle cx="910" cy="180" r="4" fill="#344957"/>
+<path class="wire" d="M910 180L910 145"/>
+<text x="920" y="150" class="small" text-anchor="start">输出</text>
+<circle cx="910" cy="300" r="4" fill="#344957"/>
+<path class="wire" d="M910 300L910 335"/>
+<text x="920" y="340" class="small" text-anchor="start">输入</text>
+<text x="880" y="398" class="small" text-anchor="middle">输入 E—B；输出 C—B</text>
+<text x="30" y="439" class="note" text-anchor="start">这里只标端口关系；实际偏置、信号源、负载和耦合元件见各放大电路图。</text></svg>
