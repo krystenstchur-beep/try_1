@@ -1,0 +1,818 @@
+{
+  "source": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.md",
+  "scanned_workspace_files": 728,
+  "references": [
+    {
+      "original": "模电第三章_手写思路提取.md",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写笔记对应表.md",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写笔记对应表.md",
+      "relative": "模电第三章_手写笔记对应表.md",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-structure.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-structure.png",
+      "relative": "配图/轻量版_v2/bjt-structure.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-1.jpg",
+      "relative": "web-notes/assets/analog/hand1-1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-2.jpg",
+      "relative": "web-notes/assets/analog/hand1-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#bjt-1",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#bjt-1",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-2.jpg",
+      "relative": "web-notes/assets/analog/hand1-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-bias.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-bias.png",
+      "relative": "配图/轻量版_v2/bjt-bias.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-2.jpg",
+      "relative": "web-notes/assets/analog/hand1-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-3.jpg",
+      "relative": "web-notes/assets/analog/hand1-3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-3-states",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-3-states",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/8.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\8.jpg",
+      "relative": "tmp/analog/read/textbook/8.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/three-configurations.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\three-configurations.svg",
+      "relative": "配图/轻量版_v2/three-configurations.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-6.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-6.jpg",
+      "relative": "web-notes/assets/analog/hand1-6.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-7.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-7.jpg",
+      "relative": "web-notes/assets/analog/hand1-7.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-carriers.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-carriers.png",
+      "relative": "配图/轻量版_v2/bjt-carriers.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-3.jpg",
+      "relative": "web-notes/assets/analog/hand1-3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-3.jpg",
+      "relative": "web-notes/assets/analog/hand1-3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-4.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-4.jpg",
+      "relative": "web-notes/assets/analog/hand1-4.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#bjt-2-5",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#bjt-2-5",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\1.jpg",
+      "relative": "tmp/analog/read/textbook/1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\2.jpg",
+      "relative": "tmp/analog/read/textbook/2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-5.jpg",
+      "relative": "web-notes/assets/analog/hand1-5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-5.jpg",
+      "relative": "web-notes/assets/analog/hand1-5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-6.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-6.jpg",
+      "relative": "web-notes/assets/analog/hand1-6.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-7.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-7.jpg",
+      "relative": "web-notes/assets/analog/hand1-7.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-5",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-5",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-6-current",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-6-current",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-7-coefficients",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-7-coefficients",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/10.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\10.jpg",
+      "relative": "tmp/analog/read/textbook/10.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/ce-waveforms.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\ce-waveforms.svg",
+      "relative": "配图/轻量版_v2/ce-waveforms.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-8.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-8.jpg",
+      "relative": "web-notes/assets/analog/hand1-8.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-8.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-8.jpg",
+      "relative": "web-notes/assets/analog/hand1-8.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-8",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-8",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/input-characteristics.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\input-characteristics.svg",
+      "relative": "配图/轻量版_v2/input-characteristics.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-output-curves.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-output-curves.png",
+      "relative": "配图/轻量版_v2/bjt-output-curves.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\3.jpg",
+      "relative": "tmp/analog/read/textbook/3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-9.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-9.jpg",
+      "relative": "web-notes/assets/analog/hand1-9.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-10.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-10.jpg",
+      "relative": "web-notes/assets/analog/hand1-10.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-11.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-11.jpg",
+      "relative": "web-notes/assets/analog/hand1-11.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-dc-models.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-dc-models.png",
+      "relative": "配图/轻量版_v2/bjt-dc-models.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/bjt-h-models.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\bjt-h-models.png",
+      "relative": "配图/轻量版_v2/bjt-h-models.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\5.jpg",
+      "relative": "tmp/analog/read/textbook/5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-12.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-12.jpg",
+      "relative": "web-notes/assets/analog/hand1-12.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-12.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-12.jpg",
+      "relative": "web-notes/assets/analog/hand1-12.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-13.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-13.jpg",
+      "relative": "web-notes/assets/analog/hand1-13.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-13.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-13.jpg",
+      "relative": "web-notes/assets/analog/hand1-13.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\5.jpg",
+      "relative": "tmp/analog/read/textbook/5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-1.jpg",
+      "relative": "web-notes/assets/analog/hand2-1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/two-port.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\two-port.svg",
+      "relative": "配图/轻量版_v2/two-port.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/6.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\6.jpg",
+      "relative": "tmp/analog/read/textbook/6.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-1.jpg",
+      "relative": "web-notes/assets/analog/hand2-1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand2-1-model",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand2-1-model",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/8.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\8.jpg",
+      "relative": "tmp/analog/read/textbook/8.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-1.jpg",
+      "relative": "web-notes/assets/analog/hand2-1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/ce-paths.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\ce-paths.svg",
+      "relative": "web-notes/assets/analog/ce-paths.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/9.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\9.jpg",
+      "relative": "tmp/analog/read/textbook/9.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/11.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\11.jpg",
+      "relative": "tmp/analog/read/textbook/11.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-2.jpg",
+      "relative": "web-notes/assets/analog/hand2-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-2.jpg",
+      "relative": "web-notes/assets/analog/hand2-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-2.jpg",
+      "relative": "web-notes/assets/analog/hand2-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/ce-divider.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\ce-divider.png",
+      "relative": "配图/轻量版_v2/ce-divider.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/16.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\16.jpg",
+      "relative": "tmp/analog/read/textbook/16.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-4.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-4.jpg",
+      "relative": "web-notes/assets/analog/hand2-4.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-4.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-4.jpg",
+      "relative": "web-notes/assets/analog/hand2-4.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-5.jpg",
+      "relative": "web-notes/assets/analog/hand2-5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-5.jpg",
+      "relative": "web-notes/assets/analog/hand2-5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand2-4b",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand2-4b",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand2-5a",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand2-5a",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand2-5b-design",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand2-5b-design",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/12.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\12.jpg",
+      "relative": "tmp/analog/read/textbook/12.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-3.jpg",
+      "relative": "web-notes/assets/analog/hand2-3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/input-load-line.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\input-load-line.svg",
+      "relative": "配图/轻量版_v2/input-load-line.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/load-lines.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\load-lines.svg",
+      "relative": "web-notes/assets/analog/load-lines.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/13.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\13.jpg",
+      "relative": "tmp/analog/read/textbook/13.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-3.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-3.jpg",
+      "relative": "web-notes/assets/analog/hand2-3.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-4.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-4.jpg",
+      "relative": "web-notes/assets/analog/hand2-4.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/17.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\17.jpg",
+      "relative": "tmp/analog/read/textbook/17.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-5.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-5.jpg",
+      "relative": "web-notes/assets/analog/hand2-5.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/ce-h-model.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\ce-h-model.svg",
+      "relative": "配图/轻量版_v2/ce-h-model.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/divider-bias.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\divider-bias.svg",
+      "relative": "web-notes/assets/analog/divider-bias.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/21.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\21.jpg",
+      "relative": "tmp/analog/read/textbook/21.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/ce-distortion.png",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\ce-distortion.png",
+      "relative": "配图/轻量版_v2/ce-distortion.png",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/24.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\24.jpg",
+      "relative": "tmp/analog/read/textbook/24.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#amp-7",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#amp-7",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/26.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\26.jpg",
+      "relative": "tmp/analog/read/textbook/26.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#amp-8",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#amp-8",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/cc-complete.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\cc-complete.svg",
+      "relative": "配图/轻量版_v2/cc-complete.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/cc-path.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\cc-path.svg",
+      "relative": "web-notes/assets/analog/cc-path.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/cc-h-model.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\cc-h-model.svg",
+      "relative": "配图/轻量版_v2/cc-h-model.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/28.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\28.jpg",
+      "relative": "tmp/analog/read/textbook/28.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#amp-9",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#amp-9",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/cb-complete.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\cb-complete.svg",
+      "relative": "配图/轻量版_v2/cb-complete.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/cb-path.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\cb-path.svg",
+      "relative": "web-notes/assets/analog/cb-path.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "配图/轻量版_v2/cb-h-model.svg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\配图\\轻量版_v2\\cb-h-model.svg",
+      "relative": "配图/轻量版_v2/cb-h-model.svg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/30.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\30.jpg",
+      "relative": "tmp/analog/read/textbook/30.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#amp-10",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#amp-10",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/32.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\32.jpg",
+      "relative": "tmp/analog/read/textbook/32.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md#raw-hand1-7-connections",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md#raw-hand1-7-connections",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写笔记对应表.md#technical-checks",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写笔记对应表.md",
+      "relative": "模电第三章_手写笔记对应表.md#technical-checks",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-7.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-7.jpg",
+      "relative": "web-notes/assets/analog/hand1-7.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-9.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-9.jpg",
+      "relative": "web-notes/assets/analog/hand1-9.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-2.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-2.jpg",
+      "relative": "web-notes/assets/analog/hand2-2.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写笔记对应表.md",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写笔记对应表.md",
+      "relative": "模电第三章_手写笔记对应表.md",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand2-1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand2-1.jpg",
+      "relative": "web-notes/assets/analog/hand2-1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "web-notes/assets/analog/hand1-8.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\web-notes\\assets\\analog\\hand1-8.jpg",
+      "relative": "web-notes/assets/analog/hand1-8.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/slides/3.pptx",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\slides\\3.pptx",
+      "relative": "tmp/analog/slides/3.pptx",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/slides/4.pptx",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\slides\\4.pptx",
+      "relative": "tmp/analog/slides/4.pptx",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/slides/5.pptx",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\slides\\5.pptx",
+      "relative": "tmp/analog/slides/5.pptx",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/1.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\1.jpg",
+      "relative": "tmp/analog/read/textbook/1.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "tmp/analog/read/textbook/32.jpg",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\tmp\\analog\\read\\textbook\\32.jpg",
+      "relative": "tmp/analog/read/textbook/32.jpg",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写思路提取.md",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "relative": "模电第三章_手写思路提取.md",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "模电第三章_手写笔记对应表.md",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写笔记对应表.md",
+      "relative": "模电第三章_手写笔记对应表.md",
+      "mode": "direct",
+      "changed": false
+    },
+    {
+      "original": "output/pdf/模电第三章_原稿保留修订版_2026-10-21.pdf",
+      "target": "D:\\github working google\\try _1\\do_1\\模电\\output\\pdf\\模电第三章_原稿保留修订版_2026-10-21.pdf",
+      "relative": "output/pdf/模电第三章_原稿保留修订版_2026-10-21.pdf",
+      "mode": "direct",
+      "changed": false
+    }
+  ],
+  "missing_workspace_copies": [
+    {
+      "original": "C:/Users/maluteng/Desktop/学习资料/模电/02第二章-3-BJT-MOS三极管(0804).pdf",
+      "name": "02第二章-3-BJT-MOS三极管(0804).pdf",
+      "desktop_file_exists": true,
+      "workspace_candidates": []
+    },
+    {
+      "original": "C:/Users/maluteng/Desktop/学习资料/模电/03第三章-1-放大器的基本概念+共射极（Ver.3）（0805）.pdf",
+      "name": "03第三章-1-放大器的基本概念+共射极（Ver.3）（0805）.pdf",
+      "desktop_file_exists": true,
+      "workspace_candidates": []
+    }
+  ]
+}

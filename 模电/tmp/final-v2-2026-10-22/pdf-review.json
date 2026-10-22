@@ -1,0 +1,618 @@
+{
+  "page_count": 56,
+  "text_chunks": 430,
+  "missing_chunks": [],
+  "fonts": {
+    "/AAAAAA+MicrosoftYaHei-Bold": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/BAAAAA+MicrosoftYaHei": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/CAAAAA+KaTeX_Math-Italic": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/DAAAAA+KaTeX_Main-Regular": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/EAAAAA+ArialMT": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/FAAAAA+MicrosoftYaHei-Bold": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/GAAAAA+MicrosoftYaHei-Bold": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/HAAAAA+Georgia": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/IAAAAA+Georgia-Italic": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/JAAAAA+KaTeX_Size1-Regular": {
+      "embedded": true,
+      "unicode": true
+    },
+    "/KAAAAA+Consolas": {
+      "embedded": true,
+      "unicode": true
+    }
+  },
+  "bookmarks": 27,
+  "named_destinations": 59,
+  "external_links": 150,
+  "link_errors": [],
+  "pages": [
+    {
+      "page": 1,
+      "characters": 1048,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 76.77254363194015,
+      "body_bottom": 756.5936445870185
+    },
+    {
+      "page": 2,
+      "characters": 655,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.46126864782059,
+      "body_bottom": 559.540444954365
+    },
+    {
+      "page": 3,
+      "characters": 593,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 74.45231174411663,
+      "body_bottom": 750.0889724590417
+    },
+    {
+      "page": 4,
+      "characters": 907,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99803829662312,
+      "body_bottom": 775.9810263483306
+    },
+    {
+      "page": 5,
+      "characters": 777,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.374727270832864,
+      "body_bottom": 574.4007836460717
+    },
+    {
+      "page": 6,
+      "characters": 559,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 391.59715886820175,
+      "body_bottom": 776.3891398239949
+    },
+    {
+      "page": 7,
+      "characters": 702,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.461573687808254,
+      "body_bottom": 729.8907749614265
+    },
+    {
+      "page": 8,
+      "characters": 921,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99765832863966,
+      "body_bottom": 763.2309463835846
+    },
+    {
+      "page": 9,
+      "characters": 922,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.632590827512445,
+      "body_bottom": 711.867846077663
+    },
+    {
+      "page": 10,
+      "characters": 209,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.997924344628586,
+      "body_bottom": 786.1159920079892
+    },
+    {
+      "page": 11,
+      "characters": 1161,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37432531884997,
+      "body_bottom": 766.9807771713423
+    },
+    {
+      "page": 12,
+      "characters": 1389,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37469832683337,
+      "body_bottom": 768.8664239107204
+    },
+    {
+      "page": 13,
+      "characters": 144,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.375071334817676,
+      "body_bottom": 731.3397837202566
+    },
+    {
+      "page": 14,
+      "characters": 924,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.997736376635544,
+      "body_bottom": 682.9829126872511
+    },
+    {
+      "page": 15,
+      "characters": 815,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.63194887553834,
+      "body_bottom": 744.6326282461721
+    },
+    {
+      "page": 16,
+      "characters": 556,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99776239263508,
+      "body_bottom": 365.78031563475105
+    },
+    {
+      "page": 17,
+      "characters": 175,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99813540061939,
+      "body_bottom": 764.3667148342086
+    },
+    {
+      "page": 18,
+      "characters": 828,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99850840860188,
+      "body_bottom": 698.7333141269838
+    },
+    {
+      "page": 19,
+      "characters": 649,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 452.5619528352637,
+      "body_bottom": 762.8899145784627
+    },
+    {
+      "page": 20,
+      "characters": 1205,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.460902791835565,
+      "body_bottom": 744.8666126867122
+    },
+    {
+      "page": 21,
+      "characters": 1173,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37373539887403,
+      "body_bottom": 774.4800107788734
+    },
+    {
+      "page": 22,
+      "characters": 531,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.460928807833284,
+      "body_bottom": 600.8700269745716
+    },
+    {
+      "page": 23,
+      "characters": 400,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 538.8097354336079,
+      "body_bottom": 741.8262082614709
+    },
+    {
+      "page": 24,
+      "characters": 953,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.374134422861516,
+      "body_bottom": 605.7343804339445
+    },
+    {
+      "page": 25,
+      "characters": 163,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99871946459632,
+      "body_bottom": 767.7319016360462
+    },
+    {
+      "page": 26,
+      "characters": 111,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99813247262307,
+      "body_bottom": 713.340016358253
+    },
+    {
+      "page": 27,
+      "characters": 707,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 59.74762665539117,
+      "body_bottom": 642.1192414158561
+    },
+    {
+      "page": 28,
+      "characters": 942,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.15196817452454,
+      "body_bottom": 738.0755215377466
+    },
+    {
+      "page": 29,
+      "characters": 930,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.373359462889766,
+      "body_bottom": 736.6389823122528
+    },
+    {
+      "page": 30,
+      "characters": 391,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37493247082557,
+      "body_bottom": 316.28190246518545
+    },
+    {
+      "page": 31,
+      "characters": 464,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 62.79391626206336,
+      "body_bottom": 772.2306738005983
+    },
+    {
+      "page": 32,
+      "characters": 874,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.375678486794186,
+      "body_bottom": 619.2356068473902
+    },
+    {
+      "page": 33,
+      "characters": 208,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99834352861387,
+      "body_bottom": 781.9811904023273
+    },
+    {
+      "page": 34,
+      "characters": 508,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 53.4041295583562,
+      "body_bottom": 730.6173700964375
+    },
+    {
+      "page": 35,
+      "characters": 1086,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37607751077621,
+      "body_bottom": 714.1190913438606
+    },
+    {
+      "page": 36,
+      "characters": 169,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.9987425525959,
+      "body_bottom": 768.8247070538873
+    },
+    {
+      "page": 37,
+      "characters": 1045,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.374903526826074,
+      "body_bottom": 779.7310553760773
+    },
+    {
+      "page": 38,
+      "characters": 910,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.46281693575986,
+      "body_bottom": 738.0778116176551
+    },
+    {
+      "page": 39,
+      "characters": 612,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.373969542866234,
+      "body_bottom": 779.1316486647154
+    },
+    {
+      "page": 40,
+      "characters": 1126,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.99663458468592,
+      "body_bottom": 753.4801520538687
+    },
+    {
+      "page": 41,
+      "characters": 1089,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.6308470835869,
+      "body_bottom": 745.9799815343769
+    },
+    {
+      "page": 42,
+      "characters": 626,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.9976206006412,
+      "body_bottom": 552.8303025202983
+    },
+    {
+      "page": 43,
+      "characters": 801,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.12894339810009,
+      "body_bottom": 697.231874621547
+    },
+    {
+      "page": 44,
+      "characters": 817,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 65.06213214729553,
+      "body_bottom": 781.6146201635477
+    },
+    {
+      "page": 45,
+      "characters": 884,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.997779624632926,
+      "body_bottom": 607.6431857670733
+    },
+    {
+      "page": 46,
+      "characters": 997,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 255.8520013402507,
+      "body_bottom": 778.9822700952765
+    },
+    {
+      "page": 47,
+      "characters": 868,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.373593606887425,
+      "body_bottom": 575.7345455079386
+    },
+    {
+      "page": 48,
+      "characters": 322,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.12553109604346,
+      "body_bottom": 712.299205548382
+    },
+    {
+      "page": 49,
+      "characters": 1050,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.37625962276388,
+      "body_bottom": 750.8684087406348
+    },
+    {
+      "page": 50,
+      "characters": 764,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 49.640141900321055,
+      "body_bottom": 720.8389520777938
+    },
+    {
+      "page": 51,
+      "characters": 367,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 64.5395819802435,
+      "body_bottom": 514.5821596019739
+    },
+    {
+      "page": 52,
+      "characters": 1145,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.13081779802201,
+      "body_bottom": 754.9833928552372
+    },
+    {
+      "page": 53,
+      "characters": 969,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 53.40377671036606,
+      "body_bottom": 668.7331552969964
+    },
+    {
+      "page": 54,
+      "characters": 927,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 59.744977871503465,
+      "body_bottom": 780.8864663246105
+    },
+    {
+      "page": 55,
+      "characters": 1174,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 58.45979807188235,
+      "body_bottom": 771.4795636398895
+    },
+    {
+      "page": 56,
+      "characters": 957,
+      "bad_glyphs": 0,
+      "outside_paper": 0,
+      "outside_body": 0,
+      "outside_samples": [],
+      "body_top": 52.998042712622805,
+      "body_bottom": 457.98851319801645
+    }
+  ],
+  "changed_originals": []
+}

@@ -1,0 +1,593 @@
+{
+  "main": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.md",
+  "mainHTML": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.html",
+  "pdf": "D:\\github working google\\try _1\\do_1\\模电\\output\\pdf\\模电第三章_轻量版_v2.pdf",
+  "documents": [
+    {
+      "source": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.md",
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.html",
+      "maths": 819,
+      "hash": "bff13a0607e1349ba52ad60d138908e9f92fa7d220eb99a0e94cab6e47085e13",
+      "headings": [
+        {
+          "id": "heading-1",
+          "text": "一、BJT 部分"
+        },
+        {
+          "id": "bjt-1",
+          "text": "1. 定义与结构"
+        },
+        {
+          "id": "bjt-2",
+          "text": "2. 工作特点与原理"
+        },
+        {
+          "id": "bjt-2-1",
+          "text": "① BJT 的主要特点——放大作用"
+        },
+        {
+          "id": "bjt-2-2",
+          "text": "② 拥有放大作用的条件"
+        },
+        {
+          "id": "bjt-2-3",
+          "text": "③ BJT 的不同工作状态"
+        },
+        {
+          "id": "bjt-2-4",
+          "text": "④ BJT 的 3 种连接方式"
+        },
+        {
+          "id": "bjt-2-5",
+          "text": "⑤ BJT 放大的内部工作原理"
+        },
+        {
+          "id": "bjt-2-6",
+          "text": "⑥ BJT 的电流关系"
+        },
+        {
+          "id": "bjt-2-7",
+          "text": "⑦ BJT 的电压放大原理"
+        },
+        {
+          "id": "bjt-3",
+          "text": "3. 伏安特性与外部特性"
+        },
+        {
+          "id": "bjt-4",
+          "text": "4. 等效模型"
+        },
+        {
+          "id": "heading-13",
+          "text": "二、放大电路部分"
+        },
+        {
+          "id": "amp-1",
+          "text": "1. 放大电路是什么？"
+        },
+        {
+          "id": "amp-2",
+          "text": "2. 放大电路的等效及性能参数"
+        },
+        {
+          "id": "amp-3",
+          "text": "3. 放大电路的组成条件与三种组态和 2 种主要电路"
+        },
+        {
+          "id": "amp-4",
+          "text": "4. 基本电路的组成与工作原理"
+        },
+        {
+          "id": "amp-5",
+          "text": "5. 进阶电路的组成与工作原理"
+        },
+        {
+          "id": "amp-6",
+          "text": "6. 直流分析方法"
+        },
+        {
+          "id": "amp-6-basic",
+          "text": "基本电路"
+        },
+        {
+          "id": "amp-6-advanced",
+          "text": "进阶电路"
+        },
+        {
+          "id": "amp-7",
+          "text": "7. 共射极电路交流分析方法"
+        },
+        {
+          "id": "amp-8",
+          "text": "8. 放大电路分析的一般步骤"
+        },
+        {
+          "id": "amp-9",
+          "text": "9. 共集电极放大电路"
+        },
+        {
+          "id": "amp-10",
+          "text": "10. 共基极放大电路"
+        },
+        {
+          "id": "amp-11",
+          "text": "11. 三种组态电路比较"
+        }
+      ],
+      "images": 30,
+      "originalBlocks": 30
+    },
+    {
+      "source": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写思路提取.md",
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_手写思路提取.html",
+      "maths": 264,
+      "hash": "9de9404eac58fea070fd399f6476a4b9b2aa233a63bd56609b176e9a0c5acb14",
+      "headings": [
+        {
+          "id": "heading-1",
+          "text": "阅读与来源约定"
+        },
+        {
+          "id": "heading-2",
+          "text": "原始阅读顺序与分类顺序"
+        },
+        {
+          "id": "heading-3",
+          "text": "一、BJT 部分"
+        },
+        {
+          "id": "bjt-1",
+          "text": "1. 定义与结构"
+        },
+        {
+          "id": "bjt-2",
+          "text": "2. 工作特点与原理"
+        },
+        {
+          "id": "bjt-2-1",
+          "text": "① BJT 的主要特点——放大作用"
+        },
+        {
+          "id": "bjt-2-2",
+          "text": "② 拥有放大作用的条件"
+        },
+        {
+          "id": "bjt-2-3",
+          "text": "③ BJT 的不同工作状态"
+        },
+        {
+          "id": "bjt-2-4",
+          "text": "④ BJT 的 3 种连接方式"
+        },
+        {
+          "id": "bjt-2-5",
+          "text": "⑤ BJT 放大的内部工作原理"
+        },
+        {
+          "id": "bjt-2-6",
+          "text": "⑥ BJT 的电流关系"
+        },
+        {
+          "id": "bjt-2-7",
+          "text": "⑦ BJT 的电压放大原理"
+        },
+        {
+          "id": "bjt-3",
+          "text": "3. 伏安特性与外部特性"
+        },
+        {
+          "id": "bjt-4",
+          "text": "4. 等效模型"
+        },
+        {
+          "id": "heading-15",
+          "text": "二、放大电路部分"
+        },
+        {
+          "id": "amp-1",
+          "text": "1. 放大电路是什么？"
+        },
+        {
+          "id": "amp-2",
+          "text": "2. 放大电路的等效及性能参数"
+        },
+        {
+          "id": "amp-3",
+          "text": "3. 放大电路的组成条件与三种组态和 2 种主要电路"
+        },
+        {
+          "id": "amp-4",
+          "text": "4. 基本电路的组成与工作原理"
+        },
+        {
+          "id": "amp-5",
+          "text": "5. 进阶电路的组成与工作原理"
+        },
+        {
+          "id": "amp-6",
+          "text": "6. 直流分析方法"
+        },
+        {
+          "id": "amp-6-basic",
+          "text": "基本电路"
+        },
+        {
+          "id": "amp-6-advanced",
+          "text": "进阶电路"
+        },
+        {
+          "id": "amp-7",
+          "text": "7. 共射极电路交流分析方法"
+        },
+        {
+          "id": "amp-8",
+          "text": "8. 放大电路分析的一般步骤"
+        },
+        {
+          "id": "amp-9",
+          "text": "9. 共集电极放大电路"
+        },
+        {
+          "id": "amp-10",
+          "text": "10. 共基极放大电路"
+        },
+        {
+          "id": "amp-11",
+          "text": "11. 三种组态电路比较"
+        },
+        {
+          "id": "heading-29",
+          "text": "提取边界"
+        }
+      ],
+      "images": 0,
+      "originalBlocks": 31
+    },
+    {
+      "source": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_手写笔记对应表.md",
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_手写笔记对应表.html",
+      "maths": 0,
+      "hash": "59b10f35bf176ee02ff2f3a77cf6d0e6495b9de1f71d230120765a981a9b037a",
+      "headings": [
+        {
+          "id": "heading-1",
+          "text": "一、材料与版本检查"
+        },
+        {
+          "id": "heading-2",
+          "text": "二、本次结构锁定与归属规则"
+        },
+        {
+          "id": "heading-3",
+          "text": "三、逐页对应与提取检查"
+        },
+        {
+          "id": "heading-4",
+          "text": "四、关键思考、重复与交叉引用"
+        },
+        {
+          "id": "heading-5",
+          "text": "已成功提取的关键思考"
+        },
+        {
+          "id": "heading-6",
+          "text": "重复内容怎样处理"
+        },
+        {
+          "id": "heading-7",
+          "text": "五、字迹、指代与归属待确认"
+        },
+        {
+          "id": "heading-8",
+          "text": "六、只有结论或留白、缺少充分个人推理的内容"
+        },
+        {
+          "id": "technical-checks",
+          "text": "七、值得后续单独核对的技术问题"
+        },
+        {
+          "id": "heading-10",
+          "text": "八、本轮审核重点"
+        }
+      ],
+      "images": 0,
+      "originalBlocks": 0
+    },
+    {
+      "source": "D:\\github working google\\try _1\\do_1\\模电\\output\\analysis-2026-10-21\\模电第三章_知识结构与思维逻辑提取_待审核.md",
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_知识结构与思维逻辑提取_待审核.html",
+      "maths": 0,
+      "hash": "21287206bf93d9d73ea00c34b74653338c27472a26aa7a534fa7f0af00759b00",
+      "headings": [
+        {
+          "id": "heading-1",
+          "text": "第一部分：全章知识地图"
+        },
+        {
+          "id": "heading-2",
+          "text": "1. 结构、逻辑、正文的识别规则"
+        },
+        {
+          "id": "heading-3",
+          "text": "2. 按现有次序提取的树状结构"
+        },
+        {
+          "id": "heading-4",
+          "text": "第二部分：根据原文提取的全章思维逻辑"
+        },
+        {
+          "id": "heading-5",
+          "text": "1. 你已经明确处理的问题"
+        },
+        {
+          "id": "heading-6",
+          "text": "2. 原稿支持的局部逻辑图"
+        },
+        {
+          "id": "heading-7",
+          "text": "3. 关键跨节联系及证据强度"
+        },
+        {
+          "id": "heading-8",
+          "text": "4. 可以归纳、尚不能当作事实的整体特点"
+        },
+        {
+          "id": "heading-9",
+          "text": "第三部分：3.1—3.9 各节的结构、问题与思维逻辑"
+        },
+        {
+          "id": "heading-10",
+          "text": "3.1 双极型晶体管（p.3—22）"
+        },
+        {
+          "id": "heading-11",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-12",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-13",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-14",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-15",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-16",
+          "text": "3.2 放大电路的基本概念（p.23—25）"
+        },
+        {
+          "id": "heading-17",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-18",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-19",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-20",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-21",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-22",
+          "text": "3.3 共发射极放大电路的组成与工作原理（p.26—30）"
+        },
+        {
+          "id": "heading-23",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-24",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-25",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-26",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-27",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-28",
+          "text": "3.4 共发射极放大电路的直流分析方法（p.31—38）"
+        },
+        {
+          "id": "heading-29",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-30",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-31",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-32",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-33",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-34",
+          "text": "3.5 共发射极放大电路的交流分析方法（p.39—42 上）"
+        },
+        {
+          "id": "heading-35",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-36",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-37",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-38",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-39",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-40",
+          "text": "3.6 放大电路分析的一般步骤（p.42 下—43）"
+        },
+        {
+          "id": "heading-41",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-42",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-43",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-44",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-45",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-46",
+          "text": "3.7 共集电极放大电路（p.44—46 上）"
+        },
+        {
+          "id": "heading-47",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-48",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-49",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-50",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-51",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-52",
+          "text": "3.8 共基极放大电路（p.46 下—47）"
+        },
+        {
+          "id": "heading-53",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-54",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-55",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-56",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-57",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-58",
+          "text": "3.9 三种组态放大电路比较（p.48—49）"
+        },
+        {
+          "id": "heading-59",
+          "text": "A. 本节知识点结构"
+        },
+        {
+          "id": "heading-60",
+          "text": "B. 本节核心问题"
+        },
+        {
+          "id": "heading-61",
+          "text": "C. 我的思维逻辑"
+        },
+        {
+          "id": "heading-62",
+          "text": "D. 我的关键理解"
+        },
+        {
+          "id": "heading-63",
+          "text": "E. 逻辑断点与待确认事项"
+        },
+        {
+          "id": "heading-64",
+          "text": "第四部分：全章关键理解节点汇总"
+        },
+        {
+          "id": "heading-65",
+          "text": "第五部分：资料识别限制、来源边界与需要本人确认的问题"
+        },
+        {
+          "id": "heading-66",
+          "text": "1. 实际阅读范围与页码定位"
+        },
+        {
+          "id": "heading-67",
+          "text": "2. 能识别的来源，不应混淆的来源"
+        },
+        {
+          "id": "heading-68",
+          "text": "3. 无法可靠确定的字迹与写作历史"
+        },
+        {
+          "id": "heading-69",
+          "text": "4. 审核时最需要你确认的事项"
+        }
+      ],
+      "images": 0,
+      "originalBlocks": 9
+    },
+    {
+      "source": "D:\\github working google\\try _1\\do_1\\模电\\output\\revision-2026-10-21\\手写逐页转写.md",
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\手写逐页转写.html",
+      "maths": 264,
+      "hash": "cbcc929812f83873bbcf50e7523a99827e759f739659c9295536f3451f4485a0",
+      "headings": [],
+      "images": 0,
+      "originalBlocks": 0
+    }
+  ],
+  "unresolved": []
+}

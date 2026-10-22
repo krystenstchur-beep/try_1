@@ -1,0 +1,189 @@
+{
+  "output": "D:\\github working google\\try _1\\do_1\\模电\\output\\pdf\\模电第三章_轻量版_v2.pdf",
+  "bytes": 8741535,
+  "maths": 819,
+  "images": 30,
+  "scaled": [
+    {
+      "tex": "\nI_E=I_B+I_C,\\qquad i_e=i_b+i_c.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\bar\\beta=\\frac{I_C}{I_B},\\qquad\n\\bar\\alpha=\\frac{I_C}{I_E},\\qquad\n\\bar\\alpha=\\frac{\\bar\\beta}{1+\\bar\\beta},\\qquad\n\\bar\\beta=\\frac{\\bar\\alpha}{1-\\bar\\alpha}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\alpha_F=\\frac{I_C-I_{CBO}}{I_E},\\quad\n\\beta_F=\\frac{\\alpha_F}{1-\\alpha_F},\\quad\nI_C=\\alpha_F I_E+I_{CBO}\n=\\beta_F I_B+(1+\\beta_F)I_{CBO}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\begin{aligned}\nI_B&=I_{BN}-I_{CB0}+I_{EP}\\quad\\text{（方向：从 B 极流入晶体管）},\\\\\nI_C&=I_{CN}+I_{CB0}\\approx I_{CN}\\quad\\text{（方向：从 C 极流入晶体管）},\\\\\nI_E&=I_{EN}+I_{EP}\\approx I_{EN}\\quad\\text{（方向：从 E 极流出晶体管）}.\n\\end{aligned}\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\n\\bar\\beta=\\frac{I_{CN}}{I_{BN}}\\approx\\frac{I_C-I_{CB0}}{I_B+I_{CB0}}\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nI_C=\\beta I_B+(1+\\beta)I_{CB0},\\qquad\nI_E=I_B+I_C=(1+\\beta)(I_B+I_{CB0}).\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\n\\bar\\alpha=\\frac{I_{CN}}{I_{EN}}\\approx\\frac{I_C-I_{CB0}}{I_E};\\qquad\nI_C=\\bar\\alpha I_E+I_{CB0},\\quad\nI_B=(1-\\bar\\alpha)I_E-I_{CB0},\\quad I_E=I_B+I_C.\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nu_C=U_{CC}-i_CR_C\n\\quad\\Longrightarrow\\quad\nu_o=-i_cR_C=-\\beta i_bR_C.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u=\\frac{u_o}{u_i}=-\\frac{\\beta R_C}{r_{be}}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\Delta u\\to\\Delta U_{BE}\\to\\Delta i_B\n\\xrightarrow{\\beta}\\Delta i_C\n\\xrightarrow{R_C}\\Delta U_{\\mathrm{out}}=\\Delta i_CR_C.\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nu_{be}=i_b r_{be},\\qquad i_c=\\beta i_b,\\qquad i_e=(1+\\beta)i_b.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\ng_m=\\left.\\frac{\\partial i_C}{\\partial u_{B'E}}\\right|_Q\n\\approx\\frac{I_{CQ}}{V_T},\\qquad\nV_T=\\frac{kT}{q}\\approx26\\,\\mathrm{mV}\\quad(T\\approx300\\,\\mathrm K).\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nr_{be}\\approx r_{bb'}+r_\\pi\n=r_{bb'}+\\frac{\\beta V_T}{I_{CQ}}\n\\approx r_{bb'}+\\frac{(1+\\beta)V_T}{I_{EQ}}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u=\\frac{u_o}{u_i},\\qquad\nu_i=u_s\\frac{R_i}{R_s+R_i},\\qquad\nA_{us}=\\frac{u_o}{u_s}=A_u\\frac{R_i}{R_s+R_i}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u=A_{u0}\\frac{R_L}{R_o+R_L}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nR_o=\\frac{u_x}{i_x}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_i=\\frac{i_o}{i_i}=A_u\\frac{R_i}{R_L},\\qquad\nA_p=\\frac{P_o}{P_i}=A_u^2\\frac{R_i}{R_L}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\ni_C(t)=I_{CQ}+i_c(t),\\qquad\nu_C(t)=U_{CQ}+u_c(t).\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nU_{BE}=U_i+U_{BEQ}\\ \\longrightarrow\\\ni_B=I_{BQ}+i_b\\ \\longrightarrow\\\ni_C=I_{CQ}+i_c;\n\\qquad U_{CE}=U_{CEQ}-i_cR_C\\ \\longrightarrow\\ U_o.\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nI_C\\uparrow\\ \\Rightarrow\\ I_E\\uparrow\n\\ \\Rightarrow\\ V_E=I_ER_E\\uparrow\n\\ \\Rightarrow\\ U_{BE}=V_B-V_E\\downarrow\n\\ \\Rightarrow\\ I_C\\text{ 的增大受到抑制}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nV_B=V_{TH}-I_BR_{TH},\\quad\nV_{TH}=U_{CC}\\frac{R_{B2}}{R_{B1}+R_{B2}},\\quad\nR_{TH}=R_{B1}\\parallel R_{B2}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\ni_C\\text{ 增大}\\ \\to\\ i_E\\text{ 增大}\\ \\to\\ V_E=i_ER_E\\text{ 增大}\\ \\to\\ U_{BE}=V_B-V_E.\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nU_{BB}=I_BR_B+U_{BE}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nU_{CE}=U_{CC}-I_CR_C.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nI_{BQ}=\\frac{U_{BB}-U_{BEQ}}{R_B},\\qquad\nI_{CQ}=\\bar\\beta I_{BQ},\\qquad\nU_{CEQ}=U_{CC}-I_{CQ}R_C.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nI_{BQ}=\\frac{12-0.7}{470\\,\\mathrm{k\\Omega}}\n\\approx24.0\\,\\mathrm{\\mu A},\\quad\nI_{CQ}\\approx2.40\\,\\mathrm{mA},\\quad\nU_{CEQ}\\approx4.79\\,\\mathrm V.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nI_{BQ}=\\frac{U_{CC}-U_{BEQ}}{R_B}\\approx\\frac{U_{CC}}{R_B},\\qquad\nI_{CQ}=\\beta I_{BQ},\\qquad U_{CEQ}=U_{CC}-I_{CQ}R_C.\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\n\\begin{aligned}\nV_{TH}&=I_{BQ}R_{TH}+U_{BEQ}+I_{EQ}R_E,\\\\\nI_{EQ}&=(\\bar\\beta+1)I_{BQ},\\\\\nI_{BQ}&=\\frac{V_{TH}-U_{BEQ}}\n{R_{TH}+(\\bar\\beta+1)R_E},\\\\\nI_{CQ}&=\\bar\\beta I_{BQ},\\qquad\nI_{EQ}=(\\bar\\beta+1)I_{BQ},\\\\\nV_{BQ}&=V_{TH}-I_{BQ}R_{TH},\\qquad\nV_{EQ}=I_{EQ}R_E,\\\\\nU_{CEQ}&=U_{CC}-I_{CQ}R_C-I_{EQ}R_E.\n\\end{aligned}\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\begin{aligned}\nV_{BQ}&\\approx V_{TH},\\\\\nI_{EQ}&\\approx\\frac{V_{TH}-U_{BEQ}}{R_E},\\\\\nI_{CQ}&=\\frac{\\bar\\beta}{1+\\bar\\beta}I_{EQ}\\approx I_{EQ},\\\\\nU_{CEQ}&\\approx U_{CC}-I_{CQ}(R_C+R_E),\\\\\nI_{BQ}&=\\frac{I_{EQ}}{1+\\bar\\beta}.\n\\end{aligned}\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nV_{TH}=2.105\\,\\mathrm V,\\quad R_{TH}=8.246\\,\\mathrm{k\\Omega},\n\\quad I_{BQ}=\\frac{2.105-0.7}{8.246+101}\\,\\mathrm{mA}\n\\approx12.86\\,\\mathrm{\\mu A}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nU_{CEQ}\\approx6.842\\,\\mathrm V.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\begin{aligned}\nV_{BQ}&\\approx\\frac{R_{B2}}{R_{B1}+R_{B2}}U_{CC},\\\\\nI_{EQ}&\\approx\\frac{V_{BQ}-U_{BE(\\mathrm{on})}}{R_E},\\\\\nI_{CQ}&=\\alpha I_{EQ}\\approx I_{EQ},\\\\\nU_{CEQ}&\\approx U_{CC}-I_{CQ}(R_C+R_E),\\qquad I_{BQ}=\\frac{I_{EQ}}{1+\\beta}.\n\\end{aligned}\n",
+      "factor": 0.9906103286384976
+    },
+    {
+      "tex": "\nR_C'=R_C\\parallel R_L,\n\\qquad R_{Ea}=\\text{交流时未被旁路的发射极电阻}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\n\\boxed{A_u=-\\frac{\\beta R_C'}{r_{be}+(1+\\beta)R_{Ea}}},\\qquad\nR_i=R_B^{(a)}\\parallel\\bigl[r_{be}+(1+\\beta)R_{Ea}\\bigr],\\qquad\nR_o\\approx R_C.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nu_i=i_b r_{be}+(1+\\beta)i_bR_{Ea},\\quad\ni_c=\\beta i_b,\\quad\nu_o=-i_cR_C'.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nr_{be}\\approx100+\\frac{100\\times0.026}{1.286\\times10^{-3}}\n\\approx2.121\\,\\mathrm{k\\Omega},\\qquad R_C'=1.5\\,\\mathrm{k\\Omega}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\ni_C=I_{CQ}-\\frac{u_{CE}-U_{CEQ}}{R_C'}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nu_{ce}=-i_c\\bigl[R_C'+(1+1/\\beta)R_{Ea}\\bigr],\n\\qquad u_o=-i_cR_C'.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nU_{om,\\mathrm{cut}}\\approx I_{CQ}R_C',\\qquad\nU_{om,\\mathrm{sat}}\\approx U_{CEQ}-U_{CE(\\mathrm{sat})},\\qquad\nU_{om}\\approx\\min\\{U_{om,\\mathrm{cut}},U_{om,\\mathrm{sat}}\\}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nI_{BQ}=\\frac{U_{CC}-U_{BEQ}}{R_B+(\\bar\\beta+1)R_E},\\qquad\nI_{EQ}=(\\bar\\beta+1)I_{BQ},\\qquad\nU_{CEQ}=U_{CC}-I_{EQ}R_E.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u=\\frac{(1+\\beta)R_E'}{r_{be}+(1+\\beta)R_E'},\\qquad\nR_i=R_B^{(a)}\\parallel\\bigl[r_{be}+(1+\\beta)R_E'\\bigr].\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nR_{o,\\mathrm{trans}}=\\frac{r_{be}+R_g}{1+\\beta},\\qquad\n\\boxed{R_o=R_E\\parallel\\frac{r_{be}+R_g}{1+\\beta}}.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u\\approx0.980,\\qquad R_i\\approx50.76\\,\\mathrm{k\\Omega},\\qquad\nR_o\\approx30.13\\,\\Omega.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\nA_u=+\\frac{\\beta R_C'}{r_{be}},\\qquad\nR_i=R_E\\parallel\\frac{r_{be}}{1+\\beta},\\qquad\nR_o\\approx R_C.\n",
+      "factor": 0.9915128854961831
+    },
+    {
+      "tex": "\ni_b=-\\frac{u_i}{r_{be}},\\quad\ni_c=\\beta i_b=-\\frac{\\beta u_i}{r_{be}},\\quad\nu_o=-i_cR_C'=+\\frac{\\beta R_C'}{r_{be}}u_i.\n",
+      "factor": 0.9915128854961831
+    }
+  ],
+  "overflow": []
+}

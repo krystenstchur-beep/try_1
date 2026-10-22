@@ -1,0 +1,41 @@
+{
+  "documents": [
+    {
+      "title": "模电第三章_轻量版_v2",
+      "mathErrors": 0,
+      "images": 30,
+      "brokenImages": [],
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2.html"
+    },
+    {
+      "title": "模电第三章_手写思路提取",
+      "mathErrors": 0,
+      "images": 0,
+      "brokenImages": [],
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_手写思路提取.html"
+    },
+    {
+      "title": "模电第三章_手写笔记对应表",
+      "mathErrors": 0,
+      "images": 0,
+      "brokenImages": [],
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_手写笔记对应表.html"
+    },
+    {
+      "title": "模电第三章_知识结构与思维逻辑提取_待审核",
+      "mathErrors": 0,
+      "images": 0,
+      "brokenImages": [],
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\模电第三章_知识结构与思维逻辑提取_待审核.html"
+    },
+    {
+      "title": "手写逐页转写",
+      "mathErrors": 0,
+      "images": 0,
+      "brokenImages": [],
+      "output": "D:\\github working google\\try _1\\do_1\\模电\\模电第三章_轻量版_v2_配套\\手写逐页转写.html"
+    }
+  ],
+  "missing": [],
+  "passed": true
+}
